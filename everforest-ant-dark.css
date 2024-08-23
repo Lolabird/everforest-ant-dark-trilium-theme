@@ -9,7 +9,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --text-gray: lightgray;
     --devils-gray-lol: #666;
     --background-gray: #192124;
-    --supa-dark: #282c34;
+    --soft-gray: #282c34;
     --midish-gray: #444;
     --bold-sun: #fcfbb3;
     --bright-sun: #cccb99;
@@ -57,7 +57,7 @@ html {
     --main-border-color: var(--devils-gray-lol);
 
     /*changes the window icons(x, [], -) and some text fields*/
-    --accented-background-color: var(--supa-dark);
+    --accented-background-color: var(--soft-gray);
 
     /*changes the edit icons on text notes and the alert messages*/
     --more-accented-background-color: var(--midish-gray);
@@ -85,12 +85,12 @@ html {
     /*changes the 'x' on the note tabs and the right+click and trilium (icon) menus*/
     --hover-item-text-color: var(--text-gray);
     /*changes side and right+click menus and note tabs*/
-    --hover-item-background-color: var(--supa-dark);
+    --hover-item-background-color: var(--soft-gray);
 
     /*tree*/
-    --active-item-text-color: var(--supa-dark);
+    --active-item-text-color: var(--soft-gray);
     --active-item-background-color: var(--bright-sun);
-    --left-pane-background-color: var(--supa-dark);
+    --left-pane-background-color: var(--soft-gray);
     --left-pane-text-color: var(--text-gray);
 
     /*right+click menus*/
@@ -108,7 +108,7 @@ html {
     /*tabs*/
     --active-tab-background-color: var(--bold-sun);
     --active-tab-text-color: var(--background-gray);
-    --inactive-tab-background-color: var(--supa-dark);
+    --inactive-tab-background-color: var(--soft-gray);
     --inactive-tab-text-color: var(--text-gray);
     --active-tab-hover-background-color: var(--text-gray);
     --inactive-tab-hover-background-color: var(--earth-sun);
@@ -362,7 +362,7 @@ body .global-menu-button {
 }
 .form-control:focus {
     color: var(--bright-sun) !important;
-    background-color: var(--supa-dark);
+    background-color: var(--soft-gray);
     border-color: var(--text-gray) !important;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
@@ -374,7 +374,7 @@ body .global-menu-button {
 }
 .note-title:focus {
     color: var(--text-gray) !important;
-    background-color: var(--supa-dark) !important;
+    background-color: var(--soft-gray) !important;
     border-color: var(--text-gray) !important;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
@@ -382,11 +382,11 @@ body .global-menu-button {
 
 /***selection and find/replace (button)***/
 ::selection {
-    color: black !important /*var(--supa-dark)*/;
+    color: black !important /*var(--soft-gray)*/;
     background: #fcfbb3 !important /*var(--bold-sun)*/;
 }
 span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
-    color: var(--supa-dark);
+    color: var(--soft-gray);
 }
 
 
@@ -407,7 +407,7 @@ button:focus :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-butt
     box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
 }
 button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-button-cancel), .btn:hover {
-    background-color: var(--supa-dark) !important;
+    background-color: var(--soft-gray) !important;
     color: var(--bold-sun);
     border-color: var(--bold-sun);
 }
@@ -415,7 +415,7 @@ button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-butt
 /***table sub-menu***/
 /*table field input label*/
 .ck.ck-labeled-field-view>.ck.ck-labeled-field-view__input-wrapper>.ck.ck-label{
-    background: var(--supa-dark);
+    background: var(--soft-gray);
     color: var(--text-gray);
 }
 /*table field and button inputs*/
@@ -450,7 +450,7 @@ div.backlinks-items {
     right: 10px;
     width: 400px;
     border-radius: 10px;
-    background-color: var(--supa-dark);
+    background-color: var(--soft-gray);
     color: var(--text-gray);
     padding: 20px;
     overflow-y: auto;
@@ -474,7 +474,7 @@ div.backlinks-items div:hover {
 /*****CODE IN TEXT NOTES)*****/
 /***code blocks***/
 .ck-content pre {
-    background: var(--supa-dark);
+    background: var(--soft-gray);
     font-family: monospace;
     font-size: 0.9rem;
     border-color: var(--shallow-sea-blue);
@@ -497,7 +497,7 @@ pre::after{
 .ck-content code, .ck-content code i, .ck-content code strong  {
     font-family:  monospace;
     font-size: .95rem;
-    background: var(--supa-dark);
+    background: var(--soft-gray);
     color: var(--shallow-sea-blue) !important;
     letter-spacing: 1px;
 
@@ -546,14 +546,14 @@ body {
     --ck-color-button-action-active-background: var(--darkened-sun) !important; /*find button active and field descritpion*/
     --ck-color-button-action-active-shadow: transparent !important; /*top line*/
     /*--ck-color-button-action-disabled-background: red; /*?*/
-    --ck-color-button-action-text: var(--supa-dark) !important; /*find button(editor sub-menu)*/
+    --ck-color-button-action-text: var(--soft-gray) !important; /*find button(editor sub-menu)*/
 
     /*save and cancel*/
     --ck-color-button-save: var(--sea-green) /*hsl(120, 100%, 46%)*/; /*table sub-menu*/
     --ck-color-button-cancel: hsl(15, 100%, 56%); /*table sub-menu*/
 
     /***overrides the default '.ck-dropdown' class colors (color sub-menus)***/
-    --ck-color-dropdown-panel-background: var(--supa-dark);
+    --ck-color-dropdown-panel-background: var(--soft-gray);
     --ck-color-dropdown-panel-border: var(--devils-gray-lol);
 
     /***overrides the default '.ck-splitbutton' class colors***/
@@ -564,7 +564,7 @@ body {
     /*--ck-color-input-background: red; /*?*/
     --ck-color-input-border: var(--text-gray); /*inactive (enabled AND disabled) editable field(editor sub-menus)*/
     /*--ck-color-input-text: red; /*?*/
-    --ck-color-input-disabled-background: var(--supa-dark); /*disabled color picker(table sub-menu)*/
+    --ck-color-input-disabled-background: var(--soft-gray); /*disabled color picker(table sub-menu)*/
     --ck-color-input-disabled-border: var(--background-gray); /*disabled editor border (table sub-menu)*/
     --ck-color-input-disabled-text: var(--text-gray); /*editor input text (enable AND disabled)*/
 
@@ -573,14 +573,14 @@ body {
     --ck-color-list-button-hover-background: var(--midish-gray);
     --ck-color-list-button-on-background:  var(--dim-sun); /*toggled/active*/
     --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
-    --ck-color-list-button-on-text: var(--supa-dark); /*toggled/active*/
+    --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
 
     /***overrides the default .ck-balloon-panel class colors (overall look and feel of the editor toolbars and sub-menus)***/
-    --ck-color-panel-background: var(--supa-dark);
+    --ck-color-panel-background: var(--soft-gray);
     --ck-color-panel-border: var(--devils-gray-lol);
 
     /***overrides the default .ck-toolbar class colors***/
-    --ck-color-toolbar-background: var(--supa-dark); /*lots of overlap with the above backgound setting*/
+    --ck-color-toolbar-background: var(--soft-gray); /*lots of overlap with the above backgound setting*/
     --ck-color-toolbar-border: var(--dim-sun); /*section separators*/
 
     /***overrides the default .ck-tooltip class colors***/

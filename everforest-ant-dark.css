@@ -24,7 +24,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --shallow-sea-blue: #54bcba;
     --header-font-family: Lucida Console, Monaco, sans-serif;
     --code-select-gray: #333;
-    --table-header-gray: #222;
+    --table-header-gray: #151719;
 }
 
 
@@ -90,7 +90,7 @@ html {
     /*tree*/
     --active-item-text-color: var(--soft-gray);
     --active-item-background-color: var(--bright-sun);
-    --left-pane-background-color: var(--soft-gray);
+    --left-pane-background-color: var(--table-header-gray);
     --left-pane-text-color: var(--text-gray);
 
     /*right+click menus*/
@@ -244,7 +244,7 @@ body h6 code {
     font-weight: 600 !important;
     font-size: 1.15rem;
 }
-tr:nth-child(odd) {
+/*tr:nth-child(odd) {
     background-color: var(--code-select-gray);
 }
 .ck-content .table table tbody tr:nth-child(odd) th {

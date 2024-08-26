@@ -63,9 +63,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --background-gray: #192124;
     --soft-gray: #282c34;
     --midish-gray: #444;
-    --bold-sun: #fcfbb3;
-    --bright-sun: #cccb99;
-    --dim-sun: #969573;
+    --sand: #D3C6AA;
     --darkened-sun: #ccca6c;
     --earth-sun: #333225;
     --light-turquoise: #6df9f7;
@@ -131,9 +129,9 @@ html {
     --muted-text-color: var(--devils-gray-lol);
 
     /*notes title and text fields in options menu and find (ctrl+f) search*/
-    --input-text-color: var(--bright-sun);
+    --input-text-color: var(--sand);
     /*affects find (ctrl+f) search input when inactive*/
-    --input-background-color: var(--dim-sun);
+    --input-background-color: var(--sand);
 
     /*changes the 'x' on the note tabs and the right+click and trilium (icon) menus*/
     --hover-item-text-color: var(--text-gray);
@@ -142,7 +140,7 @@ html {
 
     /*tree*/
     --active-item-text-color: var(--soft-gray);
-    --active-item-background-color: var(--bright-sun);
+    --active-item-background-color: var(--sand);
     --left-pane-background-color: var(--tree-background-gray);
     --left-pane-text-color: var(--text-gray);
 
@@ -156,10 +154,10 @@ html {
 
     /*left and bottom left menus*/
     --launcher-pane-background-color: var(--background-gray);
-    --launcher-pane-text-color: var(--dim-sun);
+    --launcher-pane-text-color: var(--sand);
 
     /*tabs*/
-    --active-tab-background-color: var(--bold-sun);
+    --active-tab-background-color: var(--sand);
     --active-tab-text-color: var(--background-gray);
     --inactive-tab-background-color: var(--table-header-gray);
     --inactive-tab-text-color: var(--text-gray);
@@ -167,7 +165,7 @@ html {
     --inactive-tab-hover-background-color: var(--soft-gray);
 
     /*general*/
-    --scrollbar-border-color: var(--dim-sun);
+    --scrollbar-border-color: var(--sand);
     --tooltip-background-color: var(--background-gray);
     --link-color: var(--light-turquoise);
 
@@ -184,7 +182,7 @@ html {
     background-color: transparent !important;
 }
 ::-webkit-scrollbar-thumb:hover{
-    border-color: var(--bright-sun) !important;
+    border-color: var(--sand) !important;
 }
 
 /*****TABS*****/
@@ -231,7 +229,7 @@ body h2 code {
 }
 
 body h3 {
-    color: var(--bright-sun);
+    color: var(--sand);
     font-weight: 700;
     font-family: var(--header-font-family);
     font-size: 1.9rem !important;
@@ -313,7 +311,7 @@ tr:nth-child(odd) {
 /*****TEXT DECORATION*****/
 /*bold*/
 body strong {
-  color:var(--bold-sun);
+  color:var(--sand);
   font-weight: 800;
 }
 
@@ -363,11 +361,11 @@ body blockquote{
     color: var(--devils-gray-lol);
 }
 .note-icon:hover::before {
-    color: var(--bold-sun);
-    border-color: var(--bold-sun) !important; /*not working*/
+    color: var(--sand);
+    border-color: var(--sand) !important; /*not working*/
 }
 .note-icon:focus::before, .bx-calendar:focus::before {
-    color: var(--bold-sun);
+    color: var(--sand);
 }
 .icon-list {
     color: var(--shallow-sea-blue);
@@ -378,15 +376,15 @@ body blockquote{
      color: var(--devils-gray-lol);
 }
 .ribbon-tab-title-icon:hover {
-     color: var(--bold-sun);
+     color: var(--sand);
 }
 
 /***left (side and bottom) and upper right menus***/
 .icon-action, .tree-floating-button, .top-btn button, .minimize-btn button, .maximize-btn button, .close-btn button {
-    color: var(--dim-sun) !important;
+    color: var(--sand) !important;
 }
 .icon-action:hover, .tree-floating-button:hover, .top-btn button:hover, .minimize-btn button:hover, .maximize-btn button:hover, .close-btn button:hover, button.button-widget:hover, .sync-status-widget:hover {
-    color: var(--bold-sun) !important;
+    color: var(--sand) !important;
     border: none !important;
 }
 
@@ -394,7 +392,7 @@ body blockquote{
 /***tree***/
 /*note icon*/
 .fancytree-custom-icon {
-    color: var(--dim-sun);
+    color: var(--sand);
 }
 .note-icon-widget button.note-icon {
     border: none !important;
@@ -419,7 +417,7 @@ body .global-menu-button {
     color: var(--text-gray) !important;
 }
 .form-control:focus {
-    color: var(--bright-sun) !important;
+    color: var(--sand) !important;
     background-color: var(--soft-gray);
     border-color: var(--text-gray) !important;
     outline: 0;
@@ -441,7 +439,7 @@ body .global-menu-button {
 /***selection and find/replace (button)***/
 ::selection {
     color: black !important /*var(--soft-gray)*/;
-    background: #fcfbb3 !important /*var(--bold-sun)*/;
+    background: #fcfbb3 !important /*var(--sand)*/;
 }
 span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
     color: var(--soft-gray);
@@ -453,7 +451,7 @@ span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
     color: hsl(15, 100%, 56%);
 }
 .help-button:hover {
-    color: var(--dim-sun);
+    color: var(--sand);
 }
 
 /***primary and secondary buttons***/
@@ -466,8 +464,8 @@ button:focus :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-butt
 }
 button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-button-cancel), .btn:hover {
     background-color: var(--soft-gray) !important;
-    color: var(--bold-sun);
-    border-color: var(--bold-sun);
+    color: var(--sand);
+    border-color: var(--sand);
 }
 
 /***table sub-menu***/
@@ -546,8 +544,8 @@ div.backlinks-items div:hover {
 /*code block label*/
 pre::after{
     background: var(--earth-sun) !important;
-    color: var(--bright-sun) !important;
-    border-color: var(--bright-sun) !important;
+    color: var(--sand) !important;
+    border-color: var(--sand) !important;
     letter-spacing: 1px;
 }
 
@@ -578,7 +576,7 @@ body {
     /***overrides generic colors***/
     --ck-color-base-text: var(--border-orange); /*toggled color (editor sub-menu)*/
     --ck-color-base-foreground: var(--midish-gray); /*tiny attached triangle and selection hover*/
-    --ck-color-focus-border: var(--bright-sun); /*table and color (editor menu) focus*/
+    --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
     --ck-color-text: var(--shallow-sea-blue); /*text color*/
     /* --ck-color-shadow-drop: red; /*?*/
     /* --ck-color-shadow-inner: red; /*?*/
@@ -629,7 +627,7 @@ body {
     /***overrides the default '.ck-list' (list menus) class colors***/
     --ck-color-list-background: transparent; /*focus out*/
     --ck-color-list-button-hover-background: var(--midish-gray);
-    --ck-color-list-button-on-background:  var(--dim-sun); /*toggled/active*/
+    --ck-color-list-button-on-background:  var(--sand); /*toggled/active*/
     --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
     --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
 
@@ -639,10 +637,10 @@ body {
 
     /***overrides the default .ck-toolbar class colors***/
     --ck-color-toolbar-background: var(--soft-gray); /*lots of overlap with the above backgound setting*/
-    --ck-color-toolbar-border: var(--dim-sun); /*section separators*/
+    --ck-color-toolbar-border: var(--sand); /*section separators*/
 
     /***overrides the default .ck-tooltip class colors***/
-    --ck-color-tooltip-background: var(--bold-sun);
+    --ck-color-tooltip-background: var(--sand);
     --ck-color-tooltip-text: var(--background-gray);
 
     /* Overrides the default colors used by the ckeditor5-image package.*/
@@ -651,7 +649,7 @@ body {
 
     /***overrides the default colors used by the ckeditor5-widget (image/table) package***/
     --ck-color-widget-blurred-border: var(--devils-gray-lol); /*shows up briefly after switching tabs*/
-    --ck-color-widget-hover-border: var(--dim-sun); /*object in focus*/
+    --ck-color-widget-hover-border: var(--sand); /*object in focus*/
     --ck-color-widget-editable-focus-background: var(--midish-gray); /*table caption in focus*/
 
     /***overrides the default colors used by the ckeditor5-link package***/

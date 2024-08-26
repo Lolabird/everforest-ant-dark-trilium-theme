@@ -296,11 +296,17 @@ body h6 code {
     font-weight: 600 !important;
     font-size: 1.15rem;
 }
-/*tr:nth-child(odd) {
-    background-color: var(--code-select-gray);
+tr:nth-child(odd) {
+    background-color: var(--table-header-gray);
 }
-.ck-content .table table tbody tr:nth-child(odd) th {
+.ck-content .table table th {
+    background-color: var(--background-gray) !important;
+}
+.ck-content .table table tbody tr:nth-child(odd) th{
     background-color: var(--table-header-gray) !important;
+}
+.ck-content .table table tbody tr:nth-child(even) th{
+    background-color: var(--background-gray) !important;
 }
 
 

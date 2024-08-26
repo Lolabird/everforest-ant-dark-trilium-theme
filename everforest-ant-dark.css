@@ -64,14 +64,14 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --soft-gray: #282c34;
     --midish-gray: #444;
     --sand: #D3C6AA;
-    --darkened-sun: #ccca6c;
+    --tan: #F4D289;
     --earth-sun: #333225;
     --light-turquoise: #6df9f7;
     --sea-foam: #6df9b1;
     --italic-orange: #f4ba92;
     --border-orange: #cc6c2c;
     --sea-green: #04c963;
-    --shallow-sea-blue: #54bcba;
+    --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #333;
     --table-header-gray: #30363B;
@@ -218,7 +218,7 @@ html {
 /*****HEADERS*****/
 /*h1 is not defined, because it's not currently an option for headers in the main body*/
 body h2 {
-    color: var(--darkened-sun);
+    color: var(--tan);
     font-weight: 850;
     font-family: var(--header-font-family);
     font-size: 2rem !important;
@@ -262,7 +262,7 @@ body h5 code {
 }
 
 body h6 {
-    color: #99ccb1;
+    color: var(--soft-sea-green);
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.53rem !important;
@@ -282,7 +282,7 @@ body h6 code {
 /*****TABLE*****/
 .ck-content .table>figcaption {
     background-color: var(--table-header-gray);
-    color: var(--darkened-sun);
+    color: var(--tan);
     font-size: 1.3rem;
     font-weight: 600;
     font-family: var(--header-font-family);
@@ -368,7 +368,7 @@ body blockquote{
     color: var(--sand);
 }
 .icon-list {
-    color: var(--shallow-sea-blue);
+    color: var(--soft-sea-green);
 }
 
 /***note properties menu***/
@@ -398,7 +398,7 @@ body blockquote{
     border: none !important;
 }
 span.fancytree-node.protected > span.fancytree-custom-icon {
-    filter: drop-shadow(2px 2px 2px var(--shallow-sea-blue));
+    filter: drop-shadow(2px 2px 2px var(--soft-sea-green));
 }
 /*drop down icon*/
 .fancytree-expander::before {
@@ -491,10 +491,10 @@ button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-butt
 
 /*****NOTE MAP*****/
 .note-detail-relation-map path, .note-detail-relation-map .jtk-endpoint{
-    fill: var(--shallow-sea-blue) !important;
+    fill: var(--soft-sea-green) !important;
 }
 svg.jtk-connector path {
-    stroke: var(--shallow-sea-blue);
+    stroke: var(--soft-sea-green);
     fill: none !important;
 }
 
@@ -533,13 +533,13 @@ div.backlinks-items div:hover {
     background: var(--soft-gray);
     font-family: monospace;
     font-size: 0.9rem;
-    border-color: var(--shallow-sea-blue);
+    border-color: var(--soft-sea-green);
 }
 .ck-content pre code  {
     font-family: monospace;
     font-size: 0.9rem;
     background: transparent !important;
-    color: var(--shallow-sea-blue) !important;
+    color: var(--soft-sea-green) !important;
 }
 /*code block label*/
 pre::after{
@@ -554,7 +554,7 @@ pre::after{
     font-family:  monospace;
     font-size: .95rem;
     background: var(--soft-gray);
-    color: var(--shallow-sea-blue) !important;
+    color: var(--soft-sea-green) !important;
     letter-spacing: 1px;
 
 }
@@ -577,7 +577,7 @@ body {
     --ck-color-base-text: var(--border-orange); /*toggled color (editor sub-menu)*/
     --ck-color-base-foreground: var(--midish-gray); /*tiny attached triangle and selection hover*/
     --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
-    --ck-color-text: var(--shallow-sea-blue); /*text color*/
+    --ck-color-text: var(--soft-sea-green); /*text color*/
     /* --ck-color-shadow-drop: red; /*?*/
     /* --ck-color-shadow-inner: red; /*?*/
 
@@ -597,9 +597,9 @@ body {
     /*--ck-color-button-on-disabled-background: red; /*?*/
 
     /*find button (editor sub-menu)*/
-    --ck-color-button-action-background: var(--darkened-sun) !important;
+    --ck-color-button-action-background: var(--tan) !important;
     --ck-color-button-action-hover-background: var(--devils-gray-lol) !important;
-    --ck-color-button-action-active-background: var(--darkened-sun) !important; /*find button active and field descritpion*/
+    --ck-color-button-action-active-background: var(--tan) !important; /*find button active and field descritpion*/
     --ck-color-button-action-active-shadow: transparent !important; /*top line*/
     /*--ck-color-button-action-disabled-background: red; /*?*/
     --ck-color-button-action-text: var(--soft-gray) !important; /*find button(editor sub-menu)*/
@@ -614,7 +614,7 @@ body {
 
     /***overrides the default '.ck-splitbutton' class colors***/
     --ck-color-split-button-hover-background: var(--devils-gray-lol);
-    --ck-color-split-button-hover-border: var(--shallow-sea-blue);
+    --ck-color-split-button-hover-border: var(--soft-sea-green);
 
     /***overrides the default '.ck-input' class colors***/
     /*--ck-color-input-background: red; /*?*/
@@ -664,7 +664,7 @@ body {
     --ck-z-modal: 10000;
 
     /*--ck-color-widget-type-around-button: red; /*?*/
-    --ck-color-widget-type-around-button-hover: var(--darkened-sun); /*applies when table/image is in focus*/
+    --ck-color-widget-type-around-button-hover: var(--tan); /*applies when table/image is in focus*/
 }
 
 

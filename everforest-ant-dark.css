@@ -3,6 +3,58 @@ Ant Earth by Octavia N. (https://github.com/Lolabird/??)
 
 This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark and the more generally available theme EverForest.
 ******************************************************************/
+/*****FONT IMPORTS*****/
+@font-face {
+     font-family: "JetBrainsMono";
+     src: url('/custom/themes/EFAD/JetBrainsMono-Regular.woff2') format("woff2");
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: "JetBrainsMono";
+     src: url('/custom/themes/EFAD/JetBrainsMono-Italic.woff2') format("woff2");
+     font-weight: 400;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "JetBrainsMono";
+     src: url('/custom/themes/EFAD/JetBrainsMono-Bold.woff2') format("woff2");
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face {
+     font-family: "JetBrainsMono";
+     src: url('/custom/themes/EFAD/JetBrainsMono-BoldItalic.woff2') format("woff2");
+     font-weight: 700;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-400-Book.woff2') format("woff2");
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-400-BookItalic.woff2') format("woff2");
+     font-weight: 400;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-700-Bold.woff2') format("woff2");
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-700-BoldItalic.woff2') format("woff2");
+     font-weight: 700;
+     font-style: oblique;
+}
+
+
+
 /*****ROOT (COLOR AND FONT KEY)*****/
 :root{
     /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
@@ -22,7 +74,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --border-orange: #cc6c2c;
     --sea-green: #04c963;
     --shallow-sea-blue: #54bcba;
-    --header-font-family: Lucida Console, Monaco, sans-serif;
+    --header-font-family: Jost, sans-serif;
     --code-select-gray: #333;
     --table-header-gray: #30363B;
     --tree-background-gray: #232A2E;
@@ -38,17 +90,17 @@ html {
 
     /***fonts***/
     /*general fonts*/
-    --main-font-family: sans-serif;
+    --main-font-family: Jost, sans-serif;
     --main-font-size: 1.2rem;
 
-    --tree-font-family: serif;
+    --tree-font-family: Jost, sans-serif;
     --tree-font-size: 1.3rem;
 
-    --detail-font-family: sans-serif;
+    --detail-font-family: Jost, sans-serif;
     --detail-font-size: 1.3rem;
 
    /*code fonts*/
-    --monospace-font-family: monospace;
+    --monospace-font-family: JetBrainsMono, monospace;
     --monospace-font-size: 1.2rem;
 
     /***colors***/

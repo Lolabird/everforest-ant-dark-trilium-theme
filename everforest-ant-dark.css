@@ -161,11 +161,10 @@ html {
     /*tabs*/
     --active-tab-background-color: var(--bold-sun);
     --active-tab-text-color: var(--background-gray);
-    --inactive-tab-background-color: var(--soft-gray);
+    --inactive-tab-background-color: var(--table-header-gray);
     --inactive-tab-text-color: var(--text-gray);
     --active-tab-hover-background-color: var(--text-gray);
-    --inactive-tab-hover-background-color: var(--earth-sun);
-
+    --inactive-tab-hover-background-color: var(--soft-gray);
 
     /*general*/
     --scrollbar-border-color: var(--dim-sun);

@@ -65,10 +65,10 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --midish-gray: #444;
     --sand: #D3C6AA;
     --tan: #F4D289;
-    --earth-sun: #333225;
+    --earth-sun: #61473D /*#866254*/;
     --light-turquoise: #6df9f7;
-    --italic-orange: #f4ba92;
-    --border-orange: #cc6c2c;
+    --italic-orange: #D3C6AA /*sand /*#f4ba92*/;
+    --border-orange: #A65434 /*#cc6c2c*/;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #333;
@@ -291,6 +291,7 @@ body h6 code {
 .ck-content .table table th {
     font-weight: 600 !important;
     font-size: 1.15rem;
+    color: var(--sand)
 }
 tr:nth-child(odd) {
     background-color: var(--table-header-gray);

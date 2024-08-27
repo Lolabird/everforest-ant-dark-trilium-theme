@@ -512,13 +512,13 @@ div.backlinks-items {
     box-shadow: 2px 2px 5px  var(--text-gray);
 }
 div.backlinks-items div:hover {
-    background-color: var(--cool-gray);
+    background-color: var(--code-select-gray);
 }
 .backlink-excerpt .backlink-link {
      background-color: var(--midish-gray) !important;
 }
 .backlinks-ticker:hover {
-    background-color: var(--cool-gray);
+    background-color: var(--code-select-gray);
 }
 
 /*****Attributes Popup*****/
@@ -542,7 +542,7 @@ div.backlinks-items div:hover {
 }
 /*code block label*/
 pre::after{
-    background: var(--cool-gray) !important;
+    background: var(--code-select-gray) !important;
     color: var(--sand) !important;
     border-color: var(--sand) !important;
     letter-spacing: 1px;
@@ -558,7 +558,7 @@ pre::after{
 
 }
 .ck-content .ck-code_selected {
-    background-color: var(--cool-gray) !important;
+    background-color: var(--code-select-gray) !important;
     letter-spacing: 1px;
 }
 
@@ -589,7 +589,7 @@ body {
     --ck-color-button-default-disabled-background:  var(--background-gray); /*disabled buttons*/
 
     /*dropdown buttons*/
-    --ck-color-button-on-background: var(--cool-gray); /*active*/
+    --ck-color-button-on-background: var(--code-select-gray); /*active*/
     --ck-color-button-on-hover-background: var(--midish-gray); /*hover*/
     --ck-color-button-on-active-background: var(--devils-gray-lol); /*exit click on active*/
     --ck-color-button-on-active-shadow: transparent; /*top line on exit click of active*/

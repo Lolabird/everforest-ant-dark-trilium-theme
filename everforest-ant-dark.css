@@ -68,7 +68,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --cool-gray: #5D7576;
     --light-turquoise: #6df9f7;
     --italic-orange: #D3C6AA /*sand /*#f4ba92*/;
-    --border-orange: #A65434 /*#cc6c2c*/;
+    --border-orange: #F4D289 /*#A65434 /*#cc6c2c*/;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #253749;
@@ -268,12 +268,6 @@ body h6 {
 body h6 code {
     font-size: 1.4rem !important;
     background: transparent !important;
-}
-
-
-/*****TEXT*****/
-*{
-    letter-spacing: 1.2px;
 }
 
 

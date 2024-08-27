@@ -180,7 +180,7 @@ html {
     background-color: transparent !important;
 }
 ::-webkit-scrollbar-thumb:hover{
-    border-color: var(--sand) !important;
+    border-color: var(--tan) !important;
 }
 
 /*****TABS*****/

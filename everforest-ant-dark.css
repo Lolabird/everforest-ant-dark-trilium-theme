@@ -71,7 +71,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --border-orange: #A65434 /*#cc6c2c*/;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
-    --code-select-gray: #333;
+    --code-select-gray: #253749;
     --table-header-gray: #30363B;
     --tree-background-gray: #232A2E;
 }
@@ -438,7 +438,7 @@ body .global-menu-button {
 /***selection and find/replace (button)***/
 ::selection {
     /*color: black !important /*var(--soft-gray)*/;
-    background: #5D7576 !important /*var(--cool-gray)*/;
+    background: #253749 !important /*var(--code-select-gray)*/;
 }
 span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
     color: var(--soft-gray);

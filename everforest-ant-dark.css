@@ -422,7 +422,7 @@ body .global-menu-button {
 
 .note-title-widget input.note-title {
     font-family: var(--header-font-family);
-    font-size: 200% !important;
+    font-size: 100% !important;
 }
 .note-title:focus {
     color: var(--text-gray) !important;

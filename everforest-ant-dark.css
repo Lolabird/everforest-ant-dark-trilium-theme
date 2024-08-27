@@ -58,7 +58,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 /*****ROOT (COLOR AND FONT KEY)*****/
 :root{
     /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
-    --text-gray: lightgray;
+    --text-gray: #DEDEDE;
     --devils-gray-lol: #666;
     --background-gray: #192124;
     --soft-gray: #282c34;

@@ -437,8 +437,8 @@ body .global-menu-button {
 
 /***selection and find/replace (button)***/
 ::selection {
-    color: black !important /*var(--soft-gray)*/;
-    background: #fcfbb3 !important /*var(--sand)*/;
+    /*color: black !important /*var(--soft-gray)*/;
+    background: #5D7576 !important /*var(--cool-gray)*/;
 }
 span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
     color: var(--soft-gray);

@@ -65,7 +65,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --midish-gray: #444;
     --sand: #D3C6AA;
     --tan: #F4D289;
-    --earth-sun: #61473D /*#866254*/;
+    --cool-gray: #5D7576;
     --light-turquoise: #6df9f7;
     --italic-orange: #D3C6AA /*sand /*#f4ba92*/;
     --border-orange: #A65434 /*#cc6c2c*/;
@@ -512,13 +512,13 @@ div.backlinks-items {
     box-shadow: 2px 2px 5px  var(--text-gray);
 }
 div.backlinks-items div:hover {
-    background-color: var(--earth-sun);
+    background-color: var(--cool-gray);
 }
 .backlink-excerpt .backlink-link {
      background-color: var(--midish-gray) !important;
 }
 .backlinks-ticker:hover {
-    background-color: var(--earth-sun);
+    background-color: var(--cool-gray);
 }
 
 /*****Attributes Popup*****/
@@ -542,7 +542,7 @@ div.backlinks-items div:hover {
 }
 /*code block label*/
 pre::after{
-    background: var(--earth-sun) !important;
+    background: var(--cool-gray) !important;
     color: var(--sand) !important;
     border-color: var(--sand) !important;
     letter-spacing: 1px;
@@ -558,7 +558,7 @@ pre::after{
 
 }
 .ck-content .ck-code_selected {
-    background-color: var(--earth-sun) !important;
+    background-color: var(--cool-gray) !important;
     letter-spacing: 1px;
 }
 
@@ -589,7 +589,7 @@ body {
     --ck-color-button-default-disabled-background:  var(--background-gray); /*disabled buttons*/
 
     /*dropdown buttons*/
-    --ck-color-button-on-background: var(--earth-sun); /*active*/
+    --ck-color-button-on-background: var(--cool-gray); /*active*/
     --ck-color-button-on-hover-background: var(--midish-gray); /*hover*/
     --ck-color-button-on-active-background: var(--devils-gray-lol); /*exit click on active*/
     --ck-color-button-on-active-shadow: transparent; /*top line on exit click of active*/

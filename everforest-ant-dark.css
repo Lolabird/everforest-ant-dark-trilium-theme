@@ -67,10 +67,8 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --tan: #F4D289;
     --earth-sun: #333225;
     --light-turquoise: #6df9f7;
-    --sea-foam: #6df9b1;
     --italic-orange: #f4ba92;
     --border-orange: #cc6c2c;
-    --sea-green: #04c963;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #333;
@@ -317,19 +315,19 @@ body strong {
 
 /***lists***/
 body ul.todo-list li {
-    color: var(--sea-foam);
+    color: var(--soft-sea-green);
 }
 li label {
     display: inline;
     line-height: 2rem;
 }
 .ck-content .todo-list .todo-list__label>input[checked]:before{
-    background: var(--sea-green);
-    border-color: var(--sea-foam);
+    background: var(--soft-sea-green);
+    border-color: var(--soft-sea-green);
     color: var(--background-gray);
 }
 .ck-content .todo-list .todo-list__label > input:before {
-    border: 1px solid var(--sea-foam) !important;
+    border: 1px solid var(--soft-sea-green) !important;
 }
 
 /***italics and quotes***/
@@ -605,7 +603,7 @@ body {
     --ck-color-button-action-text: var(--soft-gray) !important; /*find button(editor sub-menu)*/
 
     /*save and cancel*/
-    --ck-color-button-save: var(--sea-green) /*hsl(120, 100%, 46%)*/; /*table sub-menu*/
+    --ck-color-button-save: var(--soft-sea-green) /*hsl(120, 100%, 46%)*/; /*table sub-menu*/
     --ck-color-button-cancel: hsl(15, 100%, 56%); /*table sub-menu*/
 
     /***overrides the default '.ck-dropdown' class colors (color sub-menus)***/

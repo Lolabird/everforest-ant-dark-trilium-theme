@@ -5,18 +5,6 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 ******************************************************************/
 /*****FONT IMPORTS*****/
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-300-Light.woff2') format("woff2");
-     font-weight: 300;
-     font-style: normal;
-}
-@font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-300-LightItalic.woff2') format("woff2");
-     font-weight: 300;
-     font-style: oblique;
-}
-@font-face {
      font-family: "JetBrainsMono";
      src: url('/custom/themes/EFAD/JetBrainsMono-Regular.woff2') format("woff2");
      font-weight: 400;
@@ -38,6 +26,18 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
      font-family: "JetBrainsMono";
      src: url('/custom/themes/EFAD/JetBrainsMono-BoldItalic.woff2') format("woff2");
      font-weight: 700;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-300-Light.woff2') format("woff2");
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-300-LightItalic.woff2') format("woff2");
+     font-weight: 300;
      font-style: oblique;
 }
 @font-face {
@@ -88,7 +88,6 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
      font-weight: 800;
      font-style: oblique;
 }
-
 
 
 /*****ROOT (COLOR AND FONT KEY)*****/
@@ -203,6 +202,7 @@ html {
     --mermaid-theme: default;
 }
 
+
 /*****Image Caption*****/
 .ck-content figure.image>figcaption {
     font-size: 1rem;
@@ -218,6 +218,7 @@ html {
     color: var(--text-gray);
 }
 
+
 /*****Scrollbar*****/
 ::-webkit-scrollbar-thumb{
     background-color: transparent !important;
@@ -225,6 +226,7 @@ html {
 ::-webkit-scrollbar-thumb:hover{
     border-color: var(--tan) !important;
 }
+
 
 /*****TABS*****/
 .tab-row-widget .note-tab .note-tab-wrapper {
@@ -245,6 +247,7 @@ html {
     -webkit-app-region: none !important;
 }
 
+
 /*****TOC*****/
 .toc-widget{
     overflow: visible !important;
@@ -254,10 +257,12 @@ html {
     text-align: left;
 }
 
+
 /*****Included Notes*****/
 .include-note {
     margin-bottom: 1.1rem !important;
 }
+
 
 /*****HEADERS*****/
 /*h1 is not defined, because it's not currently an option for headers in the main body*/
@@ -372,10 +377,6 @@ li label {
 }
 
 /***italics and quotes***/
-/*body i {
-    color:  var(--sand);
-}*/
-
 .ck-content blockquote {
     color: var(--sand);
     font-weight: 300;
@@ -398,7 +399,6 @@ li label {
 .ck-content blockquote b, .ck-content blockquote strong{
     color: var(--text-gray);
 }
-
 
 
 /*****ICONS*****/
@@ -434,7 +434,6 @@ li label {
     border: none !important;
 }
 
-
 /***tree***/
 /*note icon*/
 .fancytree-custom-icon {
@@ -454,7 +453,6 @@ span.fancytree-node.protected > span.fancytree-custom-icon {
 button.tree-floating-button {
     font-size: 1.5rem !important;
 }
-
 
 /***Trilium icon***/
 body .global-menu-button {
@@ -481,7 +479,6 @@ body .global-menu-button {
 }
 .note-title-widget input.note-title {
     font-family: var(--header-font-family);
-    /*font-size: 200% !important;*/
 }
 .note-title:focus {
     color: var(--text-gray) !important;
@@ -544,6 +541,7 @@ button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-butt
     border: 1px solid var(--ck-color-input-disabled-border) !important;
 }
 
+
 /*****NOTE MAP*****/
 .note-detail-relation-map path, .note-detail-relation-map .jtk-endpoint{
     fill: var(--soft-sea-green) !important;
@@ -552,6 +550,7 @@ svg.jtk-connector path {
     stroke: var(--soft-sea-green);
     fill: none !important;
 }
+
 
 /*****BACKLINKS POPUP*****/
 div.backlinks-items {
@@ -577,10 +576,12 @@ div.backlinks-items div:hover {
     background-color: var(--code-select-gray);
 }
 
+
 /*****Attributes Popup*****/
 .attr-help td {
     color: var(--text-gray) !important;
 }
+
 
 /*****CODE IN TEXT NOTES)*****/
 /***code blocks***/
@@ -617,7 +618,6 @@ pre::after{
     background-color: var(--code-select-gray) !important;
     letter-spacing: 1px;
 }
-
 
 
 /*****CKEDITOR*****/

@@ -219,7 +219,7 @@ html {
 /*****HEADERS*****/
 /*h1 is not defined, because it's not currently an option for headers in the main body*/
 body h2 {
-    color: var(--tan);
+    color: #C0902B;
     font-weight: 850;
     font-family: var(--header-font-family);
     font-size: 2rem !important;
@@ -230,7 +230,7 @@ body h2 code {
 }
 
 body h3 {
-    color: var(--tan);
+    color: #E2B24D /*E2AA33*/;
     font-weight: 700;
     font-family: var(--header-font-family);
     font-size: 1.9rem !important;
@@ -241,7 +241,7 @@ body h3 code {
 }
 
 body h4 {
-    color: var(--tan);
+    color: #B29556/*C0A05D*/;
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.78rem !important;
@@ -252,7 +252,7 @@ body h4 code {
 }
 
 body h5 {
-    color: var(--tan);
+    color: #E3BE6D/*E2BD6D*/;
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.65rem !important;

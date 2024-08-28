@@ -5,6 +5,18 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 ******************************************************************/
 /*****FONT IMPORTS*****/
 @font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-300-Light.woff2') format("woff2");
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-300-LightItalic.woff2') format("woff2");
+     font-weight: 300;
+     font-style: oblique;
+}
+@font-face {
      font-family: "JetBrainsMono";
      src: url('/custom/themes/EFAD/JetBrainsMono-Regular.woff2') format("woff2");
      font-weight: 400;
@@ -42,6 +54,18 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 }
 @font-face {
      font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-600-Semi.woff2') format("woff2");
+     font-weight: 600;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-600-SemiItalic.woff2') format("woff2");
+     font-weight: 600;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
      src: url('/custom/themes/EFAD/Jost-700-Bold.woff2') format("woff2");
      font-weight: 700;
      font-style: normal;
@@ -50,6 +74,18 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
      font-family: "Jost";
      src: url('/custom/themes/EFAD/Jost-700-BoldItalic.woff2') format("woff2");
      font-weight: 700;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-800-Heavy.woff2') format("woff2");
+     font-weight: 800;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-800-HeavyItalic.woff2') format("woff2");
+     font-weight: 800;
      font-style: oblique;
 }
 
@@ -172,7 +208,10 @@ html {
 
 /*****Image Caption*****/
 .ck-content .image>figcaption {
-    font-size: .9rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: oblique;
+    color: var(--italic-orange);
 }
 
 /*****Scrollbar*****/
@@ -220,7 +259,7 @@ html {
 /*h1 is not defined, because it's not currently an option for headers in the main body*/
 body h2 {
     color: #C0902B;
-    font-weight: 850;
+    font-weight: 800;
     font-family: var(--header-font-family);
     font-size: 2rem !important;
 }
@@ -230,7 +269,7 @@ body h2 code {
 }
 
 body h3 {
-    color: #E2B24D /*E2AA33*/;
+    color: #B29556/*E2AA33*/;
     font-weight: 700;
     font-family: var(--header-font-family);
     font-size: 1.9rem !important;
@@ -241,7 +280,7 @@ body h3 code {
 }
 
 body h4 {
-    color: #B29556/*C0A05D*/;
+    color: #E2B24D/*C0A05D*/;
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.78rem !important;
@@ -332,17 +371,18 @@ li label {
 body i {
     color:  var(--italic-orange);
 }
-body blockquote{
-    color: var(--italic-orange);
-}
+
 .ck-content blockquote {
+    color: var(--italic-orange);
+    font-weight: 300;
+    font-size: 1.5rem;
     overflow: hidden;
     padding-right: 1.5em;
     padding-left: .5em;
     margin-left: 0;
     margin-right: 0;
     font-style: italic;
-    border-left: 5px solid var(--border-orange);
+    border-left: 3px solid var(--border-orange);
 }
 .ck-content blockquote p{
     margin-bottom: 0;

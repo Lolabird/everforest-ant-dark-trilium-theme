@@ -748,19 +748,20 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
     background-color: var(--code-select-gray);
 }
 .cm-s-default .cm-matchhighlight{
-    background-color: #030016;
+    background-color: #001A11;
 }
 
 /***general elements***/
-.cm-s-default .cm-atom {color: #ea5474;} /*fonts and colors (code not words)*/
-.cm-s-default .cm-def {color: #5df7e8;} /*@*/
-.cm-s-default .cm-qualifier {color:  #269b4d;} /*class*/
-.cm-s-default .cm-builtin {color: #9368f7;} /*id-selectors*/
-.cm-s-default .cm-tag {color: #06dd87;} /*html tags*/
-.cm-s-default .cm-meta {color: #777;}  /*meta (browser compatability) tags*/
-.cm-s-default .cm-comment {color: #a57489;} /*comments*/
-.cm-s-default .cm-number {color: #ea5474;} /*numbers including units, not including color codes*/
-.cm-s-default .cm-keyword {color: #ed363c;} /*color names and keywords*/
+.cm-s-default .cm-atom {color: #BC6969;} /*fonts and colors (code not words)*/
+.cm-s-default .cm-def {color: #5C9CE4;} /*@*/
+.cm-s-default .cm-qualifier {color:  #5BB394;} /*class*/
+.cm-s-default .cm-builtin {color: #967F9D;} /*id-selectors*/
+.cm-s-default .cm-tag {color: #5989B6;} /*html tags*/
+.cm-s-default .cm-meta {color: #BDA88C;}  /*meta (browser compatability) tags*/
+.cm-s-default .cm-comment {color: #6F8A91;} /*comments*/
+.cm-s-default .cm-number {color: #BC6969;} /*numbers including units, not including color codes*/
+.cm-s-default .cm-keyword {color: #CD5E5E;} /*color names and keywords*/
+.cm-s-default .cm-attribute {color: #FFB380;} /*print keyword*/
 
 /***variables***/
 /*a lot of overlap with .cm-s-default .cm-atom. Might be good to separate these if you want to style them individually*/
@@ -768,17 +769,17 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-punctuation,
 .cm-s-default .cm-property,
 .cm-s-default .cm-operator {}
-.cm-s-default .cm-variable-2 {color: #08a;} /*custom properties and php variables*/
-.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #01ad6e;} /*pseudo elements and classes*/
+.cm-s-default .cm-variable-2 {color: #D29E58;} /*custom properties and php variables*/
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #27AE60;} /*pseudo elements and classes*/
 
 /***strings***/
-.cm-s-default .cm-string {color: #f7b2b2;}
-.cm-s-default .cm-string-2 {color: #fc7462;} /*applies to some CSS properties*/
+.cm-s-default .cm-string {color: #788879;}
+.cm-s-default .cm-string-2 {color: #788879;} /*Regex and strings that can contain other strings - tested in JS code notes only*/
 
 /***brackets and parentheses***/
-div.CodeMirror span.CodeMirror-matchingbracket {color: #01ba3f;}
-div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #c60101;}
+div.CodeMirror span.CodeMirror-matchingbracket {color: #92D652;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #FF3030;}
 
 /***code errors***/
-.cm-s-default .cm-error {color: #f00;}
-.cm-invalidchar {color: #f00;}
+.cm-s-default .cm-error {color: #FF3030;}
+.cm-invalidchar {color: #FF3030;}

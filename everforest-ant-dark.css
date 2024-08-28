@@ -209,7 +209,6 @@ html {
     font-weight: 300;
     font-style: oblique;
     color: var(--sand) !important;
-    /*background: var(--soft-gray) !important;*/
 }
 .ck-content figure.image>figcaption i {
     font-style: normal;
@@ -490,7 +489,6 @@ body .global-menu-button {
 
 /***selection and find/replace (button)***/
 ::selection {
-    /*color: black !important /*var(--soft-gray)*/;
     background: #253749 !important /*var(--code-select-gray)*/;
 }
 span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
@@ -587,12 +585,10 @@ div.backlinks-items div:hover {
 /***code blocks***/
 .ck-content pre {
     background: var(--soft-gray);
-    /*font-family: monospace;*/
     font-size: 0.95rem;
     border-color: var(--soft-sea-green);
 }
 .ck-content pre code  {
-    /*font-family: monospace;*/
     font-size: 0.95rem;
     background: transparent !important;
     color: var(--soft-sea-green) !important;
@@ -607,7 +603,6 @@ pre::after{
 
 /***inline code***/
 .ck-content code, .ck-content code i, .ck-content code strong  {
-    /*font-family: monospace;*/
     font-size: .95rem;
     background: var(--soft-gray);
     color: var(--soft-sea-green) !important;
@@ -682,7 +677,7 @@ body {
     /***overrides the default '.ck-list' (list menus) class colors***/
     --ck-color-list-background: transparent; /*focus out*/
     --ck-color-list-button-hover-background: var(--table-header-gray);
-    --ck-color-list-button-on-background:  var(--sand); /*toggled/active*/
+    --ck-color-list-button-on-background:  var(--sand); /*toggled active*/
     --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
     --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
 
@@ -756,9 +751,9 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-def {color: #5C9CE4;} /*@*/
 .cm-s-default .cm-qualifier {color:  #5BB394;} /*class*/
 .cm-s-default .cm-builtin {color: #967F9D;} /*id-selectors*/
-.cm-s-default .cm-tag {color: #759DC2/*#5989B6*/;} /*html tags*/
+.cm-s-default .cm-tag {color: #759DC2;} /*html tags*/
 .cm-s-default .cm-meta {color: #BDA88C;}  /*meta (browser compatability) tags*/
-.cm-s-default .cm-comment {color: #95ACB2 /*#6F8A91*/;} /*comments*/
+.cm-s-default .cm-comment {color: #95ACB2;} /*comments*/
 .cm-s-default .cm-number {color: #FFB380;} /*numbers including units, not including color codes*/
 .cm-s-default .cm-keyword {color: #CE9292;} /*color names and keywords*/
 .cm-s-default .cm-attribute {color: #CBE0EA;} /*print keyword*/
@@ -773,7 +768,7 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #27AE60;} /*pseudo elements and classes*/
 
 /***strings***/
-.cm-s-default .cm-string {color: #91A192 /*#788879*/;}
+.cm-s-default .cm-string {color: #91A192;}
 .cm-s-default .cm-string-2 {color: #91A192;} /*Regex and strings that can contain other strings - tested in JS code notes only*/
 
 /***brackets and parentheses***/

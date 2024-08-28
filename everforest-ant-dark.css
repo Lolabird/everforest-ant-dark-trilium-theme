@@ -204,11 +204,15 @@ html {
 }
 
 /*****Image Caption*****/
-.ck-content .image>figcaption {
+.ck-content figure.image>figcaption {
     font-size: 1rem;
     font-weight: 300;
     font-style: oblique;
-    color: var(--sand);
+    color: var(--sand) !important;
+    background: var(--table-header-gray);
+}
+.ck-content figure.image>figcaption i {
+    font-style: normal;
 }
 
 /*****Scrollbar*****/
@@ -384,6 +388,9 @@ body i {
 .ck-content blockquote p{
     margin-bottom: 0;
     padding-bottom: .3em;
+}
+.ck-content blockquote i{
+    font-style: normal;
 }
 
 

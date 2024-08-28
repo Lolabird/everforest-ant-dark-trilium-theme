@@ -100,7 +100,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --sand: #D3C6AA;
     --tan: #F4D289;
     --cool-gray: #5D7576;
-    --light-turquoise: #6DF9CD/*#6DF9B3/*#6df9f7*/;
+    --light-turquoise: #6DF9CD;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #253749;
@@ -752,16 +752,16 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 }
 
 /***general elements***/
-.cm-s-default .cm-atom {color: #BC6969;} /*fonts and colors (code not words)*/
+.cm-s-default .cm-atom {color: #FFB380;} /*fonts and colors (code not words)*/
 .cm-s-default .cm-def {color: #5C9CE4;} /*@*/
 .cm-s-default .cm-qualifier {color:  #5BB394;} /*class*/
 .cm-s-default .cm-builtin {color: #967F9D;} /*id-selectors*/
-.cm-s-default .cm-tag {color: #5989B6;} /*html tags*/
+.cm-s-default .cm-tag {color: #759DC2/*#5989B6*/;} /*html tags*/
 .cm-s-default .cm-meta {color: #BDA88C;}  /*meta (browser compatability) tags*/
-.cm-s-default .cm-comment {color: #6F8A91;} /*comments*/
-.cm-s-default .cm-number {color: #BC6969;} /*numbers including units, not including color codes*/
-.cm-s-default .cm-keyword {color: #CD5E5E;} /*color names and keywords*/
-.cm-s-default .cm-attribute {color: #FFB380;} /*print keyword*/
+.cm-s-default .cm-comment {color: #95ACB2 /*#6F8A91*/;} /*comments*/
+.cm-s-default .cm-number {color: #FFB380;} /*numbers including units, not including color codes*/
+.cm-s-default .cm-keyword {color: #CE9292;} /*color names and keywords*/
+.cm-s-default .cm-attribute {color: #CBE0EA;} /*print keyword*/
 
 /***variables***/
 /*a lot of overlap with .cm-s-default .cm-atom. Might be good to separate these if you want to style them individually*/
@@ -773,8 +773,8 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #27AE60;} /*pseudo elements and classes*/
 
 /***strings***/
-.cm-s-default .cm-string {color: #788879;}
-.cm-s-default .cm-string-2 {color: #788879;} /*Regex and strings that can contain other strings - tested in JS code notes only*/
+.cm-s-default .cm-string {color: #91A192 /*#788879*/;}
+.cm-s-default .cm-string-2 {color: #91A192;} /*Regex and strings that can contain other strings - tested in JS code notes only*/
 
 /***brackets and parentheses***/
 div.CodeMirror span.CodeMirror-matchingbracket {color: #92D652;}

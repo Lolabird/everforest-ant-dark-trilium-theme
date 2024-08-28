@@ -94,14 +94,14 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 /*****ROOT (COLOR AND FONT KEY)*****/
 :root{
     /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
-    --text-gray: #DEDEDE;
+    --text-gray: #D8D8D8;
     --devils-gray-lol: #666;
     --background-gray: #192124;
     --soft-gray: #282c34;
     --sand: #D3C6AA;
     --tan: #F4D289;
     --cool-gray: #5D7576;
-    --light-turquoise: #6df9f7;
+    --light-turquoise: #6DF9CD/*#6DF9B3/*#6df9f7*/;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #253749;
@@ -214,6 +214,9 @@ html {
 .ck-content figure.image>figcaption i {
     font-style: normal;
 }
+.ck-content figure.image>figcaption b, .ck-content figure.image>figcaption strong {
+    color: var(--text-gray);
+}
 
 /*****Scrollbar*****/
 ::-webkit-scrollbar-thumb{
@@ -270,7 +273,7 @@ body h2 code {
 }
 
 body h3 {
-    color: #B29556/*E2AA33*/;
+    color: #B29556;
     font-weight: 700;
     font-family: var(--header-font-family);
     font-size: 1.9rem !important;
@@ -281,7 +284,7 @@ body h3 code {
 }
 
 body h4 {
-    color: #E2B24D/*C0A05D*/;
+    color: #E2B24D;
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.78rem !important;
@@ -292,7 +295,7 @@ body h4 code {
 }
 
 body h5 {
-    color: #E3BE6D/*E2BD6D*/;
+    color: #BDA97F;
     font-weight: 600;
     font-family: var(--header-font-family);
     font-size: 1.65rem !important;
@@ -346,7 +349,7 @@ tr:nth-child(odd) {
 
 /*****TEXT DECORATION*****/
 /*bold*/
-body strong {
+body strong, body b {
   color:var(--sand);
   font-weight: 800;
 }
@@ -369,9 +372,9 @@ li label {
 }
 
 /***italics and quotes***/
-body i {
+/*body i {
     color:  var(--sand);
-}
+}*/
 
 .ck-content blockquote {
     color: var(--sand);
@@ -391,6 +394,9 @@ body i {
 }
 .ck-content blockquote i{
     font-style: normal;
+}
+.ck-content blockquote b, .ck-content blockquote strong{
+    color: var(--text-gray);
 }
 
 

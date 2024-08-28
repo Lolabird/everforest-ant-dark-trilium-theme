@@ -103,8 +103,6 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --tan: #F4D289;
     --cool-gray: #5D7576;
     --light-turquoise: #6df9f7;
-    --italic-orange: #D3C6AA /*sand /*#f4ba92*/;
-    --border-orange: #F4D289 /*#A65434 /*#cc6c2c*/;
     --soft-sea-green: #99ccb1;
     --header-font-family: Jost, sans-serif;
     --code-select-gray: #253749;
@@ -211,7 +209,7 @@ html {
     font-size: 1rem;
     font-weight: 300;
     font-style: oblique;
-    color: var(--italic-orange);
+    color: var(--sand);
 }
 
 /*****Scrollbar*****/
@@ -369,11 +367,11 @@ li label {
 
 /***italics and quotes***/
 body i {
-    color:  var(--italic-orange);
+    color:  var(--sand);
 }
 
 .ck-content blockquote {
-    color: var(--italic-orange);
+    color: var(--sand);
     font-weight: 300;
     font-size: 1.5rem;
     overflow: hidden;
@@ -382,7 +380,7 @@ body i {
     margin-left: 0;
     margin-right: 0;
     font-style: italic;
-    border-left: 3px solid var(--border-orange);
+    border-left: 3px solid var(--tan);
 }
 .ck-content blockquote p{
     margin-bottom: 0;
@@ -619,7 +617,7 @@ I've commented out the lines that don't seem to have an affect on anything, alon
 
 body {
     /***overrides generic colors***/
-    --ck-color-base-text: var(--border-orange); /*toggled color (editor sub-menu)*/
+    --ck-color-base-text: var(--tan); /*toggled color (editor sub-menu)*/
     --ck-color-base-foreground: var(--midish-gray); /*tiny attached triangle and selection hover*/
     --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
     --ck-color-text: var(--soft-sea-green); /*text color*/

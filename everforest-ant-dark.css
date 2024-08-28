@@ -98,7 +98,6 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --devils-gray-lol: #666;
     --background-gray: #192124;
     --soft-gray: #282c34;
-    --midish-gray: #444;
     --sand: #D3C6AA;
     --tan: #F4D289;
     --cool-gray: #5D7576;
@@ -143,17 +142,17 @@ html {
     --accented-background-color: var(--soft-gray);
 
     /*changes the edit icons on text notes and the alert messages*/
-    --more-accented-background-color: var(--midish-gray);
+    --more-accented-background-color: var(--table-header-gray);
 
    /*left, bottom left, and lower upper right icons*/
     --button-background-color: transparent;
-    --button-disabled-background-color: var(--midish-gray);
+    --button-disabled-background-color: var(--table-header-gray);
     --button-border-color: var(--text-gray);
     --button-text-color: var(--text-gray);
     --button-border-radius: 5px;
 
     /*changes button in label detail*/
-    --primary-button-background-color: var(--midish-gray);
+    --primary-button-background-color: var(--table-header-gray);
     --primary-button-text-color:  var(--text-gray);
     --primary-button-border-color:  var(--text-gray);
 
@@ -559,7 +558,7 @@ div.backlinks-items div:hover {
     background-color: var(--code-select-gray);
 }
 .backlink-excerpt .backlink-link {
-     background-color: var(--midish-gray) !important;
+     background-color: var(--table-header-gray) !important;
 }
 .backlinks-ticker:hover {
     background-color: var(--code-select-gray);
@@ -618,7 +617,7 @@ I've commented out the lines that don't seem to have an affect on anything, alon
 body {
     /***overrides generic colors***/
     --ck-color-base-text: var(--tan); /*toggled color (editor sub-menu)*/
-    --ck-color-base-foreground: var(--midish-gray); /*tiny attached triangle and selection hover*/
+    --ck-color-base-foreground: var(--table-header-gray); /*tiny attached triangle and selection hover*/
     --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
     --ck-color-text: var(--soft-sea-green); /*text color*/
     /* --ck-color-shadow-drop: red; /*?*/
@@ -627,14 +626,14 @@ body {
     /***overrides the default '.ck-button' class colors***/
     /*general buttons*/
     --ck-color-button-default-background: transparent;
-    --ck-color-button-default-hover-background: var(--midish-gray);
+    --ck-color-button-default-hover-background: var(--table-header-gray);
     --ck-color-button-default-active-background: var(--devils-gray-lol);
     --ck-color-button-default-active-shadow: var(--devils-gray-lol); /*thin line on top of active buttons*/
     --ck-color-button-default-disabled-background:  var(--background-gray); /*disabled buttons*/
 
     /*dropdown buttons*/
     --ck-color-button-on-background: var(--code-select-gray); /*active*/
-    --ck-color-button-on-hover-background: var(--midish-gray); /*hover*/
+    --ck-color-button-on-hover-background: var(--table-header-gray); /*hover*/
     --ck-color-button-on-active-background: var(--devils-gray-lol); /*exit click on active*/
     --ck-color-button-on-active-shadow: transparent; /*top line on exit click of active*/
     /*--ck-color-button-on-disabled-background: red; /*?*/
@@ -669,7 +668,7 @@ body {
 
     /***overrides the default '.ck-list' (list menus) class colors***/
     --ck-color-list-background: transparent; /*focus out*/
-    --ck-color-list-button-hover-background: var(--midish-gray);
+    --ck-color-list-button-hover-background: var(--table-header-gray);
     --ck-color-list-button-on-background:  var(--sand); /*toggled/active*/
     --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
     --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
@@ -693,12 +692,12 @@ body {
     /***overrides the default colors used by the ckeditor5-widget (image/table) package***/
     --ck-color-widget-blurred-border: var(--devils-gray-lol); /*shows up briefly after switching tabs*/
     --ck-color-widget-hover-border: var(--sand); /*object in focus*/
-    --ck-color-widget-editable-focus-background: var(--midish-gray); /*table caption in focus*/
+    --ck-color-widget-editable-focus-background: var(--table-header-gray); /*table caption in focus*/
 
     /***overrides the default colors used by the ckeditor5-link package***/
     /*--ck-color-link-default: red; /*this is overridden by a link setting set earlier in the code*/
 
-    --ck-color-table-focused-cell-background: var(--midish-gray);
+    --ck-color-table-focused-cell-background: var(--table-header-gray);
 
     /*--ck-color-todo-list-checkmark-border: red; /*?*/
 

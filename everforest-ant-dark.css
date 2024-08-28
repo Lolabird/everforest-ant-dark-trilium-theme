@@ -209,7 +209,7 @@ html {
     font-weight: 300;
     font-style: oblique;
     color: var(--sand) !important;
-    background: var(--table-header-gray);
+    /*background: var(--soft-gray) !important;*/
 }
 .ck-content figure.image>figcaption i {
     font-style: normal;
@@ -268,7 +268,7 @@ body h2 {
     font-size: 2rem !important;
 }
 body h2 code {
-    font-size: 1.9rem !important;
+    font-size: 1.7rem !important;
     background: transparent !important;
 }
 
@@ -279,7 +279,7 @@ body h3 {
     font-size: 1.9rem !important;
 }
 body h3 code {
-    font-size: 1.78rem !important;
+    font-size: 1.6rem !important;
     background: transparent !important;
 }
 
@@ -290,7 +290,7 @@ body h4 {
     font-size: 1.78rem !important;
 }
 body h4 code {
-    font-size: 1.65rem !important;
+    font-size: 1.5rem !important;
     background: transparent !important;
 }
 
@@ -301,7 +301,7 @@ body h5 {
     font-size: 1.65rem !important;
 }
 body h5 code {
-    font-size: 1.53rem !important;
+    font-size: 1.4rem !important;
     background: transparent !important;
 }
 
@@ -312,7 +312,7 @@ body h6 {
     font-size: 1.53rem !important;
 }
 body h6 code {
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
     background: transparent !important;
 }
 
@@ -586,13 +586,13 @@ div.backlinks-items div:hover {
 /***code blocks***/
 .ck-content pre {
     background: var(--soft-gray);
-    font-family: monospace;
-    font-size: 0.9rem;
+    /*font-family: monospace;*/
+    font-size: 0.95rem;
     border-color: var(--soft-sea-green);
 }
 .ck-content pre code  {
-    font-family: monospace;
-    font-size: 0.9rem;
+    /*font-family: monospace;*/
+    font-size: 0.95rem;
     background: transparent !important;
     color: var(--soft-sea-green) !important;
 }
@@ -606,12 +606,12 @@ pre::after{
 
 /***inline code***/
 .ck-content code, .ck-content code i, .ck-content code strong  {
-    font-family:  monospace;
+    /*font-family: monospace;*/
     font-size: .95rem;
     background: var(--soft-gray);
     color: var(--soft-sea-green) !important;
     letter-spacing: 1px;
-
+    padding: 0;
 }
 .ck-content .ck-code_selected {
     background-color: var(--code-select-gray) !important;

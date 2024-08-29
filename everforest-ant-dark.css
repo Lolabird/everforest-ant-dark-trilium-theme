@@ -491,8 +491,11 @@ body .global-menu-button {
 ::selection {
     background: #253749 !important /*var(--code-select-gray)*/;
 }
-span.ck-find-result, span.ck-find-result>.ck-find-result_selected {
-    color: var(--soft-gray);
+span.ck-find-result {
+    background: var(--code-select-gray);
+}
+span.ck-find-result_selected {
+    background: #493725;
 }
 
 

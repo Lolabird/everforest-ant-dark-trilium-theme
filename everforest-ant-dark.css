@@ -429,7 +429,7 @@ li label {
     color: var(--sand) !important;
 }
 .icon-action:hover, .tree-floating-button:hover, .top-btn button:hover, .minimize-btn button:hover, .maximize-btn button:hover, .close-btn button:hover, button.button-widget:hover, .sync-status-widget:hover {
-    color: var(--sand) !important;
+    color: var(--tan) !important;
     border: none !important;
 }
 

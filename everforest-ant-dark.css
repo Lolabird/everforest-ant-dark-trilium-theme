@@ -106,6 +106,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --code-select-gray: #253749;
     --table-header-gray: #30363B;
     --tree-background-gray: #232A2E;
+    --cherry-red: #FF3030;
 }
 
 
@@ -239,6 +240,14 @@ html {
 .tab-row-widget .note-tab .note-tab-close {
     font-size: 1.5rem;
     margin-bottom: 10px;
+}
+.note-tab div.note-tab-close.bx.bx-x:hover {
+    background: transparent;
+    color: var(--tan);
+}
+.note-tab[active] div.note-tab-close.bx.bx-x:hover {
+    background: transparent;
+    color: var(--cherry-red);
 }
 
 /*fixes the issue of not being able to access widgets in the top bar*/
@@ -784,8 +793,8 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 
 /***brackets and parentheses***/
 div.CodeMirror span.CodeMirror-matchingbracket {color: #92D652;}
-div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #FF3030;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--cherry-red);}
 
 /***code errors***/
-.cm-s-default .cm-error {color: #FF3030;}
-.cm-invalidchar {color: #FF3030;}
+.cm-s-default .cm-error {color: var(--cherry-red);}
+.cm-invalidchar {color: var(--cherry-red);}

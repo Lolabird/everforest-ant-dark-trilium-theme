@@ -275,7 +275,6 @@ html {
 }
 
 
-
 /*****Included Notes*****/
 .include-note {
     margin-bottom: 1.1rem !important;
@@ -395,6 +394,9 @@ li label {
 }
 
 /***italics and quotes***/
+body em, body i {
+  color:var(--sand);
+}
 .ck-content blockquote {
     color: var(--sand);
     font-weight: 300;

@@ -447,6 +447,9 @@ li label {
 .fancytree-custom-icon {
     color: var(--sand);
 }
+span.fancytree-active > .fancytree-custom-icon {
+    color: var(--soft-gray);
+}
 .note-icon-widget button.note-icon {
     border: none !important;
 }

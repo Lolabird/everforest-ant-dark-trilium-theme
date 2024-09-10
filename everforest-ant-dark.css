@@ -813,3 +813,39 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--cherry-red);}
 /***code errors***/
 .cm-s-default .cm-error {color: var(--cherry-red);}
 .cm-invalidchar {color: var(--cherry-red);}
+
+
+/*****HIGHLIGHT.JS****/
+pre code.hljs {
+    display:block;
+    overflow-x:auto;
+    padding:1em
+}
+code.hljs {
+    padding:3px 5px
+}
+.hljs{
+    background:#fff;
+    color:turquoise !important;
+}
+.hljs-comment,.hljs-quote,.hljs-variable {
+    color: #95ACB2 !important;
+}
+.hljs-built_in,.hljs-keyword,.hljs-name,.hljs-selector-tag,.hljs-tag {
+    color: #759DC2 !important;
+}
+.hljs-addition,.hljs-attribute,.hljs-literal,.hljs-section,.hljs-string,.hljs-template-tag,.hljs-template-variable,.hljs-title,.hljs-type {
+    color: #91A192 !important;
+}
+.hljs-deletion,.hljs-meta,.hljs-selector-attr,.hljs-selector-pseudo {
+    color: #759DC2 !important;
+}
+.hljs-doctag,.hljs-attr,.hljs-bullet,.hljs-link,.hljs-symbol {
+    color: var(--text-gray) !important;
+}
+.hljs-emphasis {
+    font-style:italic;
+}
+.hljs-strong {
+    font-weight:700;
+}

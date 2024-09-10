@@ -107,6 +107,10 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --table-header-gray: #30363B;
     --tree-background-gray: #232A2E;
     --cherry-red: #FF3030;
+    --code-comment: #95ACB2;
+    --code-tag: #759DC2;
+    --code-string: #91A192;
+
 }
 
 
@@ -786,9 +790,9 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-def {color: #5C9CE4;} /*@*/
 .cm-s-default .cm-qualifier {color:  #5BB394;} /*class*/
 .cm-s-default .cm-builtin {color: #967F9D;} /*id-selectors*/
-.cm-s-default .cm-tag {color: #759DC2;} /*html tags*/
+.cm-s-default .cm-tag {color: var(--code-tag);} /*html tags*/
 .cm-s-default .cm-meta {color: #BDA88C;}  /*meta (browser compatability) tags*/
-.cm-s-default .cm-comment {color: #95ACB2;} /*comments*/
+.cm-s-default .cm-comment {color: var(--code-comment);} /*comments*/
 .cm-s-default .cm-number {color: #FFB380;} /*numbers including units, not including color codes*/
 .cm-s-default .cm-keyword {color: #CE9292;} /*color names and keywords*/
 .cm-s-default .cm-attribute {color: #CBE0EA;} /*print keyword*/
@@ -803,8 +807,8 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 .cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #27AE60;} /*pseudo elements and classes*/
 
 /***strings***/
-.cm-s-default .cm-string {color: #91A192;}
-.cm-s-default .cm-string-2 {color: #91A192;} /*Regex and strings that can contain other strings - tested in JS code notes only*/
+.cm-s-default .cm-string {color: var(--code-string);}
+.cm-s-default .cm-string-2 {color: var(--code-string);} /*Regex and strings that can contain other strings - tested in JS code notes only*/
 
 /***brackets and parentheses***/
 div.CodeMirror span.CodeMirror-matchingbracket {color: #92D652;}
@@ -829,16 +833,16 @@ code.hljs {
     color:turquoise !important;
 }
 .hljs-comment,.hljs-quote,.hljs-variable {
-    color: #95ACB2 !important;
+    color: var(--code-comment) !important;
 }
 .hljs-built_in,.hljs-keyword,.hljs-name,.hljs-selector-tag,.hljs-tag {
-    color: #759DC2 !important;
+    color: var(--code-tag) !important;
 }
 .hljs-addition,.hljs-attribute,.hljs-literal,.hljs-section,.hljs-string,.hljs-template-tag,.hljs-template-variable,.hljs-title,.hljs-type {
-    color: #91A192 !important;
+    color: var(--code-string) !important;
 }
 .hljs-deletion,.hljs-meta,.hljs-selector-attr,.hljs-selector-pseudo {
-    color: #759DC2 !important;
+    color: var(--code-tag) !important;
 }
 .hljs-doctag,.hljs-attr,.hljs-bullet,.hljs-link,.hljs-symbol {
     color: var(--text-gray) !important;

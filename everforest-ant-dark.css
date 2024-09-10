@@ -110,7 +110,15 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
     --code-comment: #95ACB2;
     --code-tag: #759DC2;
     --code-string: #91A192;
-
+    --code-number: #FFB380;
+    --code-pseudo: #27AE60;
+    --code-class: #5BB394;
+    --code-keyword: #CE9292;
+    --code-meta: #BDA88C;
+    --code-def: #5C9CE4;
+    --code-var: #D29E58;
+    --code-builtin: #967F9D;
+    --code-attribute: #CBE0EA;
 }
 
 
@@ -786,25 +794,22 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 }
 
 /***general elements***/
-.cm-s-default .cm-atom {color: #FFB380;} /*fonts and colors (code not words)*/
-.cm-s-default .cm-def {color: #5C9CE4;} /*@*/
-.cm-s-default .cm-qualifier {color:  #5BB394;} /*class*/
-.cm-s-default .cm-builtin {color: #967F9D;} /*id-selectors*/
+.cm-s-default .cm-atom {color: var(--code-number);} /*fonts and colors (code not words)*/
+.cm-s-default .cm-def {color: var(--code-def);} /*@ and class definitions (php)*/
+.cm-s-default .cm-qualifier {color: var(--code-class);} /*class*/
+.cm-s-default .cm-builtin {color: var(--code-builtin);} /*id-selectors*/
 .cm-s-default .cm-tag {color: var(--code-tag);} /*html tags*/
-.cm-s-default .cm-meta {color: #BDA88C;}  /*meta (browser compatability) tags*/
+.cm-s-default .cm-meta {color: var(--code-meta);}  /*meta (browser compatability) tags*/
 .cm-s-default .cm-comment {color: var(--code-comment);} /*comments*/
-.cm-s-default .cm-number {color: #FFB380;} /*numbers including units, not including color codes*/
-.cm-s-default .cm-keyword {color: #CE9292;} /*color names and keywords*/
-.cm-s-default .cm-attribute {color: #CBE0EA;} /*print keyword*/
+.cm-s-default .cm-number {color: var(--code-number);} /*numbers including units, not including color codes*/
+.cm-s-default .cm-keyword {color: var(--code-keyword);} /*color names and keywords*/
+.cm-s-default .cm-attribute {color: var(--code-attribute);} /*print keyword*/
 
 /***variables***/
-/*a lot of overlap with .cm-s-default .cm-atom. Might be good to separate these if you want to style them individually*/
-.cm-s-default .cm-variable,
-.cm-s-default .cm-punctuation,
-.cm-s-default .cm-property,
-.cm-s-default .cm-operator {}
-.cm-s-default .cm-variable-2 {color: #D29E58;} /*custom properties and php variables*/
-.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #27AE60;} /*pseudo elements and classes*/
+.cm-s-default .cm-punctuation, .cm-s-default .cm-operator {}
+.cm-s-default .cm-property{color: var(--code-attribute);}
+.cm-s-default .cm-variable, .cm-s-default .cm-variable-2 {color: var(--code-var);} /*custom properties and php variables*/
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: var(--code-pseudo);} /*pseudo elements and classes*/
 
 /***strings***/
 .cm-s-default .cm-string {color: var(--code-string);}
@@ -819,33 +824,57 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--cherry-red);}
 .cm-invalidchar {color: var(--cherry-red);}
 
 
-/*****HIGHLIGHT.JS****/
+/*****HIGHLIGHT.JS*****/
 pre code.hljs {
     display:block;
     overflow-x:auto;
-    padding:1em
+    padding:1em;
 }
 code.hljs {
-    padding:3px 5px
+    padding:3px 5px;
 }
 .hljs{
     background:#fff;
-    color:turquoise !important;
+    color: yellow !important;
 }
-.hljs-comment,.hljs-quote,.hljs-variable {
+.hljs-number {
+    color: var(--code-number) !important;
+}
+.hljs-selector-class {
+    color: var(--code-class) !important;
+}
+.hljs-selector-pseudo {
+    color: var(--code-pseudo) !important;
+}
+.hljs-keyword {
+    color: var(--code-keyword) !important;
+}
+.hljs-meta {
+    color: var(--code-meta) !important;
+}
+.hljs-title,.hljs-property {
+    color: var(--code-def) !important;
+}
+.hljs-variable,.hljs-params,.hljs-subst {
+    color: var(--code-var) !important;
+}
+.hljs-comment,.hljs-quote {
     color: var(--code-comment) !important;
 }
-.hljs-built_in,.hljs-keyword,.hljs-name,.hljs-selector-tag,.hljs-tag {
+.hljs-name,.hljs-selector-tag,.hljs-tag,.hljs-deletion,.hljs-selector-attr {
     color: var(--code-tag) !important;
 }
-.hljs-addition,.hljs-attribute,.hljs-literal,.hljs-section,.hljs-string,.hljs-template-tag,.hljs-template-variable,.hljs-title,.hljs-type {
+.hljs-attribute {
+    color: var(--code-attribute) !important;
+}
+.hljs-addition,.hljs-literal,.hljs-section,.hljs-string,.hljs-template-tag,.hljs-template-variable,.hljs-type {
     color: var(--code-string) !important;
 }
-.hljs-deletion,.hljs-meta,.hljs-selector-attr,.hljs-selector-pseudo {
-    color: var(--code-tag) !important;
+.hljs-built_in {
+    color: var(--code-builtin) !important;
 }
 .hljs-doctag,.hljs-attr,.hljs-bullet,.hljs-link,.hljs-symbol {
-    color: var(--text-gray) !important;
+    color: var(--soft-sea-green) !important;
 }
 .hljs-emphasis {
     font-style:italic;

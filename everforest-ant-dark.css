@@ -536,7 +536,7 @@ span.ck-find-result_selected {
 
 /***Internal link search active dropdown selection***/
 .aa-dropdown-menu .aa-suggestion.aa-cursor b {
-    color: var(--active-soft-gray);
+    color: var(--soft-gray);
 }
 
 

@@ -534,6 +534,11 @@ span.ck-find-result_selected {
     background: #493725;
 }
 
+/***Internal link search active dropdown selection***/
+.aa-dropdown-menu .aa-suggestion.aa-cursor b {
+    color: var(--active-soft-gray);
+}
+
 
 /*****BUTTONS*****/
 .help-button {

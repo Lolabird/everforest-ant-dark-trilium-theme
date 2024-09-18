@@ -223,6 +223,9 @@ html {
     font-style: oblique;
     color: var(--sand) !important;
 }
+.ck-content figure.image>figcaption code {
+    font-size: .8rem;
+}
 .ck-content figure.image>figcaption i {
     font-style: normal;
 }

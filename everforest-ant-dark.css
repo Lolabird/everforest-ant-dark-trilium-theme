@@ -646,7 +646,7 @@ svg.jtk-connector path {
     flex-direction: column-reverse !important;
 }
 .backlinks-ticker {
-    padding: 6px 2px !important;
+    padding: 6px 0 !important;
     writing-mode: vertical-lr;
 }
 div.backlinks-items {

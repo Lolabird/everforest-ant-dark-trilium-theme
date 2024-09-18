@@ -430,6 +430,7 @@ body em, body i {
 }
 .ck-content blockquote i{
     font-style: normal;
+    color: var(--text-gray);
 }
 .ck-content blockquote b, .ck-content blockquote strong{
     color: var(--text-gray);

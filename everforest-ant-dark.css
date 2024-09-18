@@ -545,10 +545,12 @@ body .global-menu-button {
     background: #253749 !important /*var(--code-select-gray)*/;
 }
 span.ck-find-result {
-    background: var(--code-select-gray);
+    color: var(--background-gray) !important;
+    background: var(--sand);
 }
 span.ck-find-result_selected {
-    background: #493725;
+    color: var(--background-gray) !important;
+    background: var(--tan);
 }
 
 /***Modal search active dropdown selection***/
@@ -842,7 +844,8 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
     background-color: var(--code-select-gray);
 }
 .cm-s-default .cm-matchhighlight{
-    background-color: #001A11;
+    color: var(--text-gray) !important;
+    background-color: var(--table-header-gray);
 }
 
 /***general elements***/

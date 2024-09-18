@@ -462,12 +462,12 @@ body em, body i {
      color: var(--sand);
 }
 
-/***left (side and bottom) and upper right menus***/
-.icon-action, .tree-floating-button, .top-btn button, .minimize-btn button, .maximize-btn button, .close-btn button {
-    color: var(--sand) !important;
+/***launcher, floating tree, icon action and title bar buttons***/
+div.title-bar-buttons.component button, button.icon-action {
+    color: var(--sand);
 }
-.icon-action:hover, .tree-floating-button:hover, .top-btn button:hover, .minimize-btn button:hover, .maximize-btn button:hover, .close-btn button:hover, button.button-widget:hover, .sync-status-widget:hover {
-    color: var(--tan) !important;
+#launcher-pane .launcher-button:hover, button.tree-floating-button:hover, .title-bar-buttons div:hover button, button.icon-action:hover {
+    color: var(--tan);
     border: none !important;
 }
 

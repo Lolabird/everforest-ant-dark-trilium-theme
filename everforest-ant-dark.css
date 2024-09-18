@@ -471,6 +471,18 @@ div.title-bar-buttons.component button, button.icon-action {
     border: none !important;
 }
 
+/***Calendar***/
+div.dropdown-menu.dropdown-menu-right > div.calendar-dropdown-widget > div.calendar-body > a.calendar-date:hover, .calendar-dropdown-widget .calendar-btn:hover {
+    color: var(--tan) !important;
+    background: var(--soft-gray);
+}
+a.calendar-date.calendar-date-exists {
+    color: var(--sand);
+}
+a.calendar-date.calendar-date-today {
+    background: var(--table-header-gray);
+}
+
 /***tree***/
 /*note icon*/
 .fancytree-custom-icon {

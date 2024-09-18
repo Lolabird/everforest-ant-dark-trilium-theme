@@ -228,6 +228,7 @@ html {
 }
 .ck-content figure.image>figcaption i {
     font-style: normal;
+    color: var(--text-gray);
 }
 .ck-content figure.image>figcaption b, .ck-content figure.image>figcaption strong {
     color: var(--text-gray);

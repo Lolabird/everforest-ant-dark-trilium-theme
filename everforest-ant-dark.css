@@ -436,6 +436,10 @@ body em, body i {
 .ck-content blockquote b, .ck-content blockquote strong{
     color: var(--text-gray);
 }
+/***decorated links***/
+a > i, a > em, a > b, a > strong {
+    color: var(--link-color);
+}
 
 
 /*****ICONS*****/

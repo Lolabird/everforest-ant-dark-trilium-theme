@@ -418,9 +418,6 @@ body strong, body b {
 }
 
 /***lists***/
-body ul.todo-list li {
-    color: var(--soft-sea-green);
-}
 li label {
     display: inline;
     line-height: 2rem;

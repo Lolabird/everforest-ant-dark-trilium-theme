@@ -383,6 +383,31 @@ tr:nth-child(odd) {
 .ck-content .table table tbody tr:nth-child(even) th{
     background-color: var(--background-gray) !important;
 }
+.ck-content .table table {
+    width: 100%;
+    max-height: 90vh;
+    overflow: auto;
+}
+.ck-content .table table thead th {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+}
+.ck-content .table table tbody th {
+	position: relative;
+}
+.ck-content .table table thead th:first-child {
+	position: sticky;
+	position: -webkit-sticky;
+	left: 0;
+	z-index: 2;
+}
+.ck-content .table table tbody th {
+	position: sticky;
+	left: 0;
+	z-index: 1;
+}
 
 
 /*****TEXT DECORATION*****/
@@ -658,7 +683,7 @@ svg.jtk-connector path {
     flex-direction: column-reverse !important;
 }
 .backlinks-ticker {
-    padding: 6px 0 !important;
+    padding: 6px 2px !important;
     writing-mode: vertical-lr;
 }
 div.backlinks-items {
@@ -685,13 +710,13 @@ div.backlinks-items div:hover {
 }
 
 
-/*****Attributes Popup*****/
+/*****ATTRIBUTES POPUP*****/
 .attr-help td {
     color: var(--text-gray) !important;
 }
 
 
-/*****Deletion Alert*****/
+/*****DELETION ALERT*****/
 .alert-danger {
     color: #f5c6cb;
     background-color: #930210;
@@ -886,7 +911,7 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 
 /***strings***/
 .cm-s-default .cm-string {color: var(--code-string);}
-.cm-s-default .cm-string-2 {color: var(--code-string);} /*Regex and strings that can contain other strings - tested in JS code notes only*/
+.cm-s-default .cm-string-2 {color: var(--code-string);} /*Regex and strings that can contain other strings*/
 
 /***brackets and parentheses***/
 div.CodeMirror span.CodeMirror-matchingbracket {color: #92D652;}
@@ -954,4 +979,43 @@ code.hljs {
 }
 .hljs-strong {
     font-weight:700;
+}
+
+
+/*****ZEN MODE*****/
+/*Use the button or alt+z to toggle it on and off*/
+/* hide launcher *
+.zen-mode #launcher-pane {
+    display: none !important;
+}
+
+/* hide note tree */
+.zen-mode #left-pane {
+    display: none !important;
+}
+
+/* hide ribbon buttons */
+.zen-mode .ribbon-container {
+    display: none !important;
+}
+
+/* hide note title */
+.zen-mode .title-row {
+    display: none !important;
+}
+.zen-mode .title-bar-buttons {
+    display: none !important;
+}
+.zen-mode #rest-pane > div:nth-child(1) {
+    display: none !important;
+}
+
+/* hide preview of child notes */
+.zen-mode .note-list-widget {
+    display: none !important;
+}
+
+/* hide backlink, code buttons, etc. */
+.zen-mode .floating-buttons-children{
+    display: none !important;
 }

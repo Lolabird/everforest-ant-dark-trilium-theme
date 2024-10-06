@@ -425,13 +425,15 @@ li label {
     display: inline;
     line-height: 2rem;
 }
-.ck-content .todo-list .todo-list__label>input[checked]:before{
+.ck-content .todo-list .todo-list__label>input[checked]:before, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input[checked]:before{
     background: var(--soft-sea-green);
-    border-color: var(--soft-sea-green);
-    color: var(--background-gray);
+    border-color: var(--soft-sea-green) !important;
 }
-.ck-content .todo-list .todo-list__label > input:before {
-    border: 1px solid var(--soft-sea-green) !important;
+.ck-content .todo-list .todo-list__label>input[checked]:after, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input[checked]:after {
+    border-color: var(--background-gray);
+}
+.ck-content .todo-list .todo-list__label > input:not([checked]):before, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input:not([checked]):before {
+    border: 1px solid var(--cherry-red) !important;
 }
 
 /***italics and quotes***/

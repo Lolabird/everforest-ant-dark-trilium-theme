@@ -606,6 +606,11 @@ span.ck-find-result_selected {
     color: var(--soft-gray);
 }
 
+/***Empty note field***/
+input.form-control.note-autocomplete.note-autocomplete-input.aa-input {
+    height: auto;
+}
+
 
 /*****BUTTONS*****/
 .help-button {

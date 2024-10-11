@@ -54,6 +54,18 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 }
 @font-face {
      font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-500-Medium.woff2') format("woff2");
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Jost";
+     src: url('/custom/themes/EFAD/Jost-500-MediumItalic.woff2') format("woff2");
+     font-weight: 400;
+     font-style: oblique;
+}
+@font-face {
+     font-family: "Jost";
      src: url('/custom/themes/EFAD/Jost-600-Semi.woff2') format("woff2");
      font-weight: 600;
      font-style: normal;
@@ -414,7 +426,7 @@ tr:nth-child(odd) {
 /*bold*/
 body strong, body b {
   color:var(--sand);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 /***lists***/
@@ -459,6 +471,13 @@ body em, body i {
 }
 .ck-content blockquote b, .ck-content blockquote strong{
     color: var(--text-gray);
+    font-weight: 500;
+}
+.ck-content blockquote code, .ck-content blockquote code i, .ck-content blockquote code strong {
+    font-size: 1.1rem;
+}
+.ck-content blockquote code strong {
+    font-weight: 700;
 }
 
 /***decorated links***/

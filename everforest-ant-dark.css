@@ -1061,3 +1061,8 @@ code.hljs {
 .theme-selection.component:hover {
     --icon-dark: var(--soft-gray) !important;
 }
+
+/***Trilium Chat***/
+.chat-wrapper {
+    --trilium-green: var(--soft-sea-green);
+}

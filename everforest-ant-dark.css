@@ -704,6 +704,7 @@ svg.jtk-connector path {
 .backlinks-ticker {
     padding: 6px 3px !important;
     writing-mode: vertical-lr;
+    margin-bottom: 15px;
 }
 div.backlinks-items {
     z-index: 10;
@@ -728,7 +729,7 @@ div.backlinks-items div:hover {
     background-color: var(--code-select-gray);
 }
 
-/***Relation Map Buttons***/
+/***Relation Map and Canvas Buttons***/
 .relation-map-buttons {
     display: flex;
     gap: 10px;
@@ -753,6 +754,8 @@ div.backlinks-items div:hover {
     background: transparent !important;
     color: var(--tan);
 }
+
+/***Close Button***/
 .close-floating-buttons-button {
     border: none !important;
     color: var(--button-text-color);

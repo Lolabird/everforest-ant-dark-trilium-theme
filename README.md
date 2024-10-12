@@ -55,8 +55,7 @@ There are two types of zen mode available:
 
 Right panel is enabled by default. If you would like to disable it, you can either add the following code in a new CSS note or uncomment it in the Stellar Dark theme as seen in the video below.
 
-[Zen Mode](/screenshots/EFAD_Zen.mp4)
-<iframe width="100%" height="auto" src="./screenshots/EFAD_Zen.mp4" title="Zen Mode" frameborder="0" allowfullscreen></iframe>
+./screenshots/EFAD_Zen.mp4
 
 ##### Added Features
 * Window control buttons are still accessible in zen mode

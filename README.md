@@ -121,4 +121,4 @@ GitHub: https://github.com/EliverLara/Ant/tree/master/kde/Dark
 * WordCount (Featured in the [Demo Document](https://github.com/zadam/trilium/wiki/Document#demo-document))
 * [Zen Mode](https://github.com/Nriver/awesome-trilium/issues/44)
 
-Find more addons made by the Trilium community at [Nriver's Awesome Trilium](https://github.com/Nriver/awesome-trilium?tab=readme-ov-file#%EF%B8%8F-widgets)!
+Find more addons made by the Trilium community at [Nriver's Awesome Trilium](https://github.com/Nriver/awesome-trilium?tab=readme-ov-file#%EF%B8%8F-widgets), and check out my other theme [Stellar Dark](https://github.com/Lolabird/stellar-dark-theme-trilium) while you're at it!!

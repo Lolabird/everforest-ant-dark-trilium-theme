@@ -81,6 +81,16 @@ Please go to each addon's respective page for instructions on how to enable thes
 
 ![Text Note Syntax Highlight Showcase](/screenshots/EFAD_Highlight.png)
 
+## Credits and Resources
+### Fonts
+Jost: https://indestructibletype.com/Jost.html
+JetBrainsMono: https://www.jetbrains.com/lp/mono/
+
+### Desktop Themes
+#### Ant Dark
+KDE: https://store.kde.org/p/1464285/
+GitHub: https://github.com/EliverLara/Ant/tree/master/kde/Dark
+
 #### EverForest
 *Note: There are several EverForest Firefox themes, but the one I personally like and use is listed below.*
 

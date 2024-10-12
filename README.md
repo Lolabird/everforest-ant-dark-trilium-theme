@@ -68,18 +68,18 @@ Please go to each addon's respective page for instructions on how to enable thes
 * [Show Position in TOC](https://github.com/SiriusXT/trilium-show-position-in-toc)
 * [Syntax Highlight](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)
 
+## Screenshots and Videos
+![Selection Showcase](/screenshots/EFAD_Hover.png)
 
-## Credits and Resources
-### Fonts
-* Jost: https://indestructibletype.com/Jost.html
-* JetBrainsMono: https://www.jetbrains.com/lp/mono/
+![Tables Showcase](/screenshots/EFAD_Tables.mp4)
 
-### Themes
-The EFAD color scheme is inspired by the following desktop and icon themes.
+![Map Showcase](/screenshots/EFAD_Map.png)
 
-#### Ant Dark
-* KDE: https://store.kde.org/p/1464285/
-* GitHub: https://github.com/EliverLara/Ant/tree/master/kde/Dark
+![Code Showcase](/screenshots/EFAD_Code.png)
+
+![Code Selection Showcase](/screenshots/EFAD_Code_Hover.mp4)
+
+![Text Note Syntax Highlight Showcase](/screenshots/EFAD_Highlight.png)
 
 #### EverForest
 *Note: There are several EverForest Firefox themes, but the one I personally like and use is listed below.*

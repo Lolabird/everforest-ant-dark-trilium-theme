@@ -3,6 +3,22 @@ This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Eve
 
 ![Text Showcase](/screenshots/EFAD_Main.png)
 
+## Features
+### Native Styles
+* Dark theme
+* High contrast
+* Scrolling tables with sticky headers on both axes
+* Vertical floating buttons that have much less overlap with content of notes
+* Custom fonts
+* Earthy colors
+
+### Enhanced Addon Styles
+*See 'Usage Instructions' for information on how to enable these.*
+* Zen Mode
+* Matching syntax highlight in text notes
+* Position shown in TOC
+* And much more!
+
 ## Usage Instructions
 * Download the latest version of Trilium
 * Download the latest release of EverForest Ant Dark

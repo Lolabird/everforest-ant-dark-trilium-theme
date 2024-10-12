@@ -55,7 +55,7 @@ There are two types of zen mode available:
 
 Right panel is enabled by default. If you would like to disable it, you can either add the following code in a new CSS note or uncomment it in the Stellar Dark theme as seen in the video below.
 
-![Zen Mode](/screenshots/EFAD_Zen.mp4)
+[Zen Mode](/screenshots/EFAD_Zen.mp4)
 
 ##### Added Features
 * Window control buttons are still accessible in zen mode
@@ -71,13 +71,13 @@ Please go to each addon's respective page for instructions on how to enable thes
 ## Screenshots and Videos
 ![Selection Showcase](/screenshots/EFAD_Hover.png)
 
-![Tables Showcase](/screenshots/EFAD_Tables.mp4)
+[Tables Showcase](/screenshots/EFAD_Tables.mp4)
 
 ![Map Showcase](/screenshots/EFAD_Map.png)
 
 ![Code Showcase](/screenshots/EFAD_Code.png)
 
-![Code Selection Showcase](/screenshots/EFAD_Code_Hover.mp4)
+[Code Selection Showcase](/screenshots/EFAD_Code_Hover.mp4)
 
 ![Text Note Syntax Highlight Showcase](/screenshots/EFAD_Highlight.png)
 

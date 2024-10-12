@@ -90,13 +90,13 @@ https://github.com/user-attachments/assets/7c00d31c-a43e-4956-87f8-f5ce220088de
 
 ## Credits and Resources
 ### Fonts
-Jost: https://indestructibletype.com/Jost.html
-JetBrainsMono: https://www.jetbrains.com/lp/mono/
+* Jost: https://indestructibletype.com/Jost.html
+* JetBrainsMono: https://www.jetbrains.com/lp/mono/
 
 ### Desktop Themes
 #### Ant Dark
-KDE: https://store.kde.org/p/1464285/
-GitHub: https://github.com/EliverLara/Ant/tree/master/kde/Dark
+* KDE: https://store.kde.org/p/1464285/
+* GitHub: https://github.com/EliverLara/Ant/tree/master/kde/Dark
 
 #### EverForest
 *Note: There are several EverForest Firefox themes, but the one I personally like and use is listed below.*

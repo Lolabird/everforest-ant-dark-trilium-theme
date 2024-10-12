@@ -1,5 +1,7 @@
 # EverForest Ant Dark (EFAD) Trilium Theme
-This is a Trilium Notes theme to go with Everforest and Ant Dark Linux desktop themes.
+This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Everforest and Ant Dark Linux desktop themes.
+
+![Text Showcase](/screenshots/EFAD_Main.png)
 
 ## Usage Instructions
 * Download the latest version of Trilium

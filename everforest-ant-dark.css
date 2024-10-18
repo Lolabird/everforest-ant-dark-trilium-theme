@@ -55,13 +55,13 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 @font-face {
      font-family: "Jost";
      src: url('/custom/themes/EFAD/Jost-500-Medium.woff2') format("woff2");
-     font-weight: 400;
+     font-weight: 500;
      font-style: normal;
 }
 @font-face {
      font-family: "Jost";
      src: url('/custom/themes/EFAD/Jost-500-MediumItalic.woff2') format("woff2");
-     font-weight: 400;
+     font-weight: 500;
      font-style: oblique;
 }
 @font-face {

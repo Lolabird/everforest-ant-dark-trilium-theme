@@ -62,7 +62,7 @@ Right panel is enabled by default. If you would like to disable it, you can eith
 }
 ```
 
-https://github.com/user-attachments/assets/b4b12380-ea5b-4595-a65d-3189cc052a5d
+https://github.com/user-attachments/assets/cec5564d-07f4-405e-85f7-b998d85a277c
 
 ##### Added Features
 * Window control buttons are still accessible in zen mode
@@ -78,13 +78,13 @@ Please go to each addon's respective page for instructions on how to enable thes
 ## Screenshots and Videos
 ![Selection Showcase](/screenshots/EFAD_Hover.png)
 
-https://github.com/user-attachments/assets/7b5a7857-972e-454f-b7c1-da93ac4840aa
+https://github.com/user-attachments/assets/af52206b-1c09-4567-9bbd-553b96f33c66
 
 ![Map Showcase](/screenshots/EFAD_Map.png)
 
 ![Code Showcase](/screenshots/EFAD_Code.png)
 
-https://github.com/user-attachments/assets/7c00d31c-a43e-4956-87f8-f5ce220088de
+https://github.com/user-attachments/assets/b04401cf-7579-4abc-bfc2-a91d69cfd971
 
 ![Text Note Syntax Highlight Showcase](/screenshots/EFAD_Highlight.png)
 

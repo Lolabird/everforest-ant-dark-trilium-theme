@@ -106,7 +106,7 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 :root{
     /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
     --text-gray: #D8D8D8;
-    --devils-gray-lol: #666;
+    --devils-gray-lol: #666 /*replace with a grayer version of cool-gray*/;
     --background-gray: #192124;
     --soft-gray: #23272E;
     --sand: #D3C6AA;
@@ -214,9 +214,9 @@ html {
     /*tabs*/
     --active-tab-background-color: var(--sand);
     --active-tab-text-color: var(--background-gray);
+    --active-tab-hover-background-color: var(--text-gray);
     --inactive-tab-background-color: var(--table-header-gray);
     --inactive-tab-text-color: var(--text-gray);
-    --active-tab-hover-background-color: var(--text-gray);
     --inactive-tab-hover-background-color: var(--soft-gray);
 
     /*general*/

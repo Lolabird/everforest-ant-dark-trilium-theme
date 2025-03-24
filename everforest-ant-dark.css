@@ -856,17 +856,26 @@ pre::after{
    letter-spacing: 1px;
 }
 
-/***inline code***/
+/***inline code and kbd***/
 .ck-content code, .ck-content code i, .ck-content code strong  {
    font-size: .95rem;
    background: var(--soft-gray);
    color: var(--soft-sea-green) !important;
    letter-spacing: 1px;
-   padding: 0;
+   padding: .1rem .3rem;
+   border-radius: .25rem;
 }
 .ck-content .ck-code_selected {
    background-color: var(--code-select-gray) !important;
    letter-spacing: 1px;
+}
+.ck-content kbd, .ck-content kbd i, .ck-content kbd strong {
+   font-size: .95rem;
+   letter-spacing: 1px;
+   padding: .1rem .3rem;
+   border-radius: .25rem;
+   background-color: var(--table-header-gray);
+   color: var(--sand);
 }
 
 

@@ -480,6 +480,10 @@ body em, body i {
    color: var(--text-gray);
    font-weight: 500;
 }
+.ck-content blockquote i, .ck-content blockquote i > b, .ck-content blockquote i > strong, .ck-content blockquote em, .ck-content blockquote em > b, .ck-content blockquote em > strong {
+   font-style: normal;
+   color: var(--text-gray);
+  }
 .ck-content blockquote code, .ck-content blockquote code i, .ck-content blockquote code strong {
    font-size: 1.1rem;
 }

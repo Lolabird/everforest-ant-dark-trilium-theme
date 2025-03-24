@@ -472,10 +472,6 @@ body em, body i {
    margin-bottom: 0;
    padding-bottom: .3em;
 }
-.ck-content blockquote i{
-   font-style: normal;
-   color: var(--text-gray);
-}
 .ck-content blockquote b, .ck-content blockquote strong{
    color: var(--text-gray);
    font-weight: 500;

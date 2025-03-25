@@ -529,13 +529,33 @@ body em, body i {
 }
 
 /***footnotes***/
+/*inline*/
+span.footnote-reference > sup > a {
+   font-weight: 100;
+   font-size: .9em;
+}
+/*block*/
 div.footnote-section.ck-widget {
-   border: none;
-   border-top: 1px solid var(--devils-gray-lol);
-   border-radius: 2px;
-   counter-reset: footnote-counter;
-   margin: 2.5rem 0;
-   padding: 10px;
+  border: none;
+  border-top: 1px solid var(--devils-gray-lol);
+  border-radius: 0;
+  counter-reset: footnote-counter;
+  margin: 2.5rem 0;
+  padding: 10px 0;
+}
+.ck-content span.footnote-back-link {
+   margin-right: 0;
+   position: relative;
+   top: 0;
+}
+.ck-content li.footnote-item:before {
+   content: counter(footnote-counter) ". ";
+   display: inline-block;
+   min-width: 25px;
+   position: relative;
+   right: 0.2em;
+   text-align: right;
+   overflow: hidden;
 }
 
 

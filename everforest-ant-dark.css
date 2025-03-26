@@ -321,6 +321,9 @@ html {
   font-size: 1.7rem;
   background: transparent;
 }
+.ck-content h2 kbd, .ck-content h2 kbd i, .ck-content h2 kbd b, .ck-content h2 kbd strong {
+font-size: 1.7rem;
+}
 
 .ck-content h3 {
   color: #B29556;
@@ -331,6 +334,9 @@ html {
 .ck-content h3 code, .ck-content h3 code b, .ck-content h3 code strong, .ck-content h3 code i, .ck-content h3 code em {
   font-size: 1.6rem;
   background: transparent;
+}
+.ck-content h3 kbd, .ck-content h3 kbd i, .ck-content h3 kbd b, .ck-content h3 kbd strong {
+font-size: 1.6rem;
 }
 
 .ck-content h4 {
@@ -343,6 +349,9 @@ html {
   font-size: 1.5rem;
   background: transparent;
 }
+.ck-content h4 kbd, .ck-content h4 kbd i, .ck-content h4 kbd b, .ck-content h4 kbd strong {
+font-size: 1.5rem;
+}
 
 .ck-content h5 {
   color: #BDA97F;
@@ -354,6 +363,9 @@ html {
   font-size: 1.4rem;
   background: transparent;
 }
+.ck-content h5 kbd, .ck-content h5 kbd i, .ck-content h5 kbd b, .ck-content h5 kbd strong {
+font-size: 1.4rem;
+}
 
 .ck-content h6 {
   color: var(--tan);
@@ -364,6 +376,9 @@ html {
 .ck-content h6 code, .ck-content h6 code b, .ck-content h6 code strong, .ck-content h6 code i, .ck-content h6 code em {
   font-size: 1.3rem;
   background: transparent;
+}
+.ck-content h6 kbd, .ck-content h6 kbd i, .ck-content h6 kbd b, .ck-content h6 kbd strong {
+font-size: 1.3rem;
 }
 
 
@@ -485,41 +500,41 @@ li label {
 
 /***asides***/
 .ck-content .admonition.note {
-   --accent-color: var(--code-attribute) !important;
-   --rgb: 203, 224, 234;
+  --accent-color: var(--code-attribute) !important;
+  --rgb: 203, 224, 234;
 }
 .ck-content .admonition.tip {
-   --accent-color: var(--code-builtin) !important;
-   --rgb: 195, 154, 208;
+  --accent-color: var(--code-builtin) !important;
+  --rgb: 195, 154, 208;
 }
 .ck-content .admonition.important {
-   --accent-color: var(--code-def) !important;
-    --rgb: 92, 156, 228;
+  --accent-color: var(--code-def) !important;
+   --rgb: 92, 156, 228;
 }
 .ck-content .admonition.caution {
-   --accent-color: var(--cherry-red) !important;
-   --rgb: 255, 48, 48;
+  --accent-color: var(--cherry-red) !important;
+  --rgb: 255, 48, 48;
 }
 .ck-content .admonition.warning {
-   --accent-color: var(--code-var) !important;
-   --rgb: 210, 158, 88;
+  --accent-color: var(--code-var) !important;
+  --rgb: 210, 158, 88;
 }
 .ck-content aside.admonition {
-   /*--accent-color: var(--card-border-color);*/
-   --card-background-color: rgba(var(--rgb), .12);
-   border: none;
-   border-left: 3px solid var(--accent-color);
-   box-shadow: var(--card-box-shadow);
-   background: var(--card-background-color);
-   border-radius: 0;
-   padding: 0;
-   margin: 1.25em 0;
-   margin-right: 14px;
-   position: relative;
-   padding-left: 2em;
-   overflow: hidden;
-   font-weight: 300;
-   font-size: 1.35rem;
+  /*--accent-color: var(--card-border-color);*/
+  --card-background-color: rgba(var(--rgb), .12);
+  border: none;
+  border-left: 3px solid var(--accent-color);
+  box-shadow: var(--card-box-shadow);
+  background: var(--card-background-color);
+  border-radius: 0;
+  padding: 0;
+  margin: 1.25em 0;
+  margin-right: 14px;
+  position: relative;
+  padding-left: 2em;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 1.35rem;
 }   
 .ck-content aside.admonition::before {
   color: var(--accent-color);

@@ -470,12 +470,11 @@ li label {
 .ck-content blockquote {
   color: var(--sand);
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   overflow: hidden;
-  padding-right: 1.5em;
+  padding-right: 0;
   padding-left: .5em;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 10rem;
   font-style: italic;
   border-left: 3px solid var(--tan);
 }
@@ -528,8 +527,7 @@ li label {
   background: var(--card-background-color);
   border-radius: 0;
   padding: 0;
-  margin: 1.25em 0;
-  margin-right: 14px;
+  margin: 1.5rem 5rem;
   position: relative;
   padding-left: 2em;
   overflow: hidden;

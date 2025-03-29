@@ -445,6 +445,12 @@ font-weight: 700;
 body em, body i {
 color:var(--sand);
 }
+body u {
+  text-decoration-style: dashed;
+}
+body s {
+  text-decoration-style: double;
+}
 
 
 /*****LISTS*****/

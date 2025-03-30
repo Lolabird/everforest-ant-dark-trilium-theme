@@ -271,7 +271,7 @@ html {
 }
 .note-tab div.note-tab-close.bx.bx-x:hover {
  background: transparent;
- color: var(--tan);
+ color: var(--tan) !important;
 }
 .note-tab[active] div.note-tab-close.bx.bx-x:hover {
  background: transparent;

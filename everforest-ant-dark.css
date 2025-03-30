@@ -584,14 +584,17 @@ div.footnote-section.ck-widget {
 
 /*****LINKS*****/
 body a * {
-color: var(--link-color);
+	color: var(--link-color);
+}
+.ck-content a:hover {
+    text-decoration-style: double !important;
 }
 .ck-content a[href^="#root"] {
-  text-decoration: underline;
-  text-decoration-style: dotted;
+    text-decoration: underline dotted;
 }
-.ck-content a[href^="#root"]:hover, .ck-content a[href^="https://"]:hover, .ck-content a[href^="http://"]:hover {
-  text-decoration-style: double;
+.ck-content a:not([href^="#"],[href^="https://"],[href^="http://"]) {
+    color: var(--cherry-red);
+    text-decoration: underline wavy 1px;
 }
 
 

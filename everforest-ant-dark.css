@@ -733,6 +733,7 @@ input.form-control.note-autocomplete.note-autocomplete-input.aa-input {
 /***modal buttons***/
 button.help-button {
   color: var(--sand);
+  font-size: 1.7rem;
 }
 button.help-button:hover {
   color: var(--tan);

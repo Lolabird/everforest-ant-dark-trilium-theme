@@ -298,7 +298,7 @@ html {
 .toc-widget span.toc li[style] {
  color: var(--tan) !important;
 }
-.toc-widget span.toc li:not([style*="color:"]) {
+.toc-widget span.toc li:not([style*="color:"]), .toc-widget span.toc li:not([style*="color:"]) * {
  color: inherit !important;
 }
 

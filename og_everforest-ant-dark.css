@@ -423,10 +423,18 @@ tr:nth-child(odd) {
 
 
 /*****TEXT DECORATION*****/
-/*bold*/
 body strong, body b {
-  color:var(--sand);
-  font-weight: 700;
+ color:var(--sand);
+ font-weight: 700;
+}
+body em, body i {
+ color:var(--sand);
+}
+body u {
+    text-decoration-style: dashed;
+}
+body s, body del {
+    text-decoration-style: double;
 }
 
 /***lists***/

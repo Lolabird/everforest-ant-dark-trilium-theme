@@ -457,7 +457,7 @@ color:var(--sand);
 body u {
   text-decoration-style: dashed;
 }
-body s {
+body s, body del {
   text-decoration-style: double;
 }
 
@@ -593,17 +593,17 @@ div.footnote-section.ck-widget {
 
 /*****LINKS*****/
 body a *, a.ck-widget span {
-	color: var(--link-color);
+color: var(--link-color);
 }
 .ck-content a:hover {
-    text-decoration-style: double !important;
+  text-decoration-style: double !important;
 }
 .ck-content a[href^="#root"]:not(.ck-widget) {
-    text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 .ck-content a:not([href^="#"],[href^="https://"],[href^="http://"]) {
-    color: var(--cherry-red);
-    text-decoration: underline wavy 1px;
+  color: var(--cherry-red);
+  text-decoration: underline wavy 1px;
 }
 
 
@@ -640,7 +640,7 @@ div.title-bar-buttons.component button, button.icon-action, .icon-action {
  border: none !important;
 }
 #launcher-pane button.launcher-button {
-  padding: 0;
+ padding: 0;
 }
 
 /***Calendar***/
@@ -901,10 +901,10 @@ div.backlinks-items div:hover {
  border: none !important;
 }
 
-.button-widget.bx.component.bx-pencil.visible {
-  padding: 5px 0 30px;
- }
- div.content-floating-buttons.bottom-right {
+.button-widget.bx.component.bx-pencil.visible, .button-widget.bx.component.visible.bx-lock-alt {
+padding: 5px 9px 30px;
+}
+div.content-floating-buttons.bottom-right {
   bottom: 5px;
   right: 10px;
 }
@@ -1152,8 +1152,8 @@ code.hljs {
  padding:3px 5px;
 }
 .hljs{
-  background: var(--main-background);
-  color: var(--soft-sea-green) !important;
+ background: var(--main-background);
+ color: var(--soft-sea-green) !important;
 }
 .hljs-number {
  color: var(--code-number) !important;

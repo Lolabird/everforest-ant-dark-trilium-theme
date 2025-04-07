@@ -899,7 +899,6 @@ div.backlinks-items div:hover {
 }
 .close-floating-buttons-button:hover {
  border: none !important;
- color: var(--cherry-red) !important;
 }
 
 .button-widget.bx.component.bx-pencil.visible {

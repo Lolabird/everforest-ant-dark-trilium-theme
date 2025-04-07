@@ -902,6 +902,9 @@ div.backlinks-items div:hover {
  color: var(--cherry-red) !important;
 }
 
+.button-widget.bx.component.bx-pencil.visible {
+  padding: 5px 0 30px;
+ }
 
 /*****ATTRIBUTES POPUP*****/
 .attr-help td {

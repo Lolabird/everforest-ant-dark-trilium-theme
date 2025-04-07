@@ -290,8 +290,8 @@ html {
 
 /*****TOC*****/
 span.toc ol, span.highlights-list ol {
-  padding-left: 1.5rem;
- }
+padding-left: 1.5rem;
+}
 
 /***Only applies if 'Show Position in TOC' widget is in use***/
 .toc-widget span.toc li[style] {

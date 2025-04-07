@@ -5,132 +5,132 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 ******************************************************************/
 /*****FONT IMPORTS*****/
 @font-face {
-     font-family: "JetBrainsMono";
-     src: url('/custom/themes/EFAD/JetBrainsMono-Regular.woff2') format("woff2");
-     font-weight: 400;
-     font-style: normal;
+    font-family: "JetBrainsMono";
+    src: url('/custom/themes/EFAD/JetBrainsMono-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-     font-family: "JetBrainsMono";
-     src: url('/custom/themes/EFAD/JetBrainsMono-Italic.woff2') format("woff2");
-     font-weight: 400;
-     font-style: oblique;
+    font-family: "JetBrainsMono";
+    src: url('/custom/themes/EFAD/JetBrainsMono-Italic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "JetBrainsMono";
-     src: url('/custom/themes/EFAD/JetBrainsMono-Bold.woff2') format("woff2");
-     font-weight: 700;
-     font-style: normal;
+    font-family: "JetBrainsMono";
+    src: url('/custom/themes/EFAD/JetBrainsMono-Bold.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-     font-family: "JetBrainsMono";
-     src: url('/custom/themes/EFAD/JetBrainsMono-BoldItalic.woff2') format("woff2");
-     font-weight: 700;
-     font-style: oblique;
+    font-family: "JetBrainsMono";
+    src: url('/custom/themes/EFAD/JetBrainsMono-BoldItalic.woff2') format("woff2");
+    font-weight: 700;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-300-Light.woff2') format("woff2");
-     font-weight: 300;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-300-Light.woff2') format("woff2");
+    font-weight: 300;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-300-LightItalic.woff2') format("woff2");
-     font-weight: 300;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-300-LightItalic.woff2') format("woff2");
+    font-weight: 300;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-400-Book.woff2') format("woff2");
-     font-weight: 400;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-400-Book.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-400-BookItalic.woff2') format("woff2");
-     font-weight: 400;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-400-BookItalic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-500-Medium.woff2') format("woff2");
-     font-weight: 500;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-500-Medium.woff2') format("woff2");
+    font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-500-MediumItalic.woff2') format("woff2");
-     font-weight: 500;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-500-MediumItalic.woff2') format("woff2");
+    font-weight: 500;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-600-Semi.woff2') format("woff2");
-     font-weight: 600;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-600-Semi.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-600-SemiItalic.woff2') format("woff2");
-     font-weight: 600;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-600-SemiItalic.woff2') format("woff2");
+    font-weight: 600;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-700-Bold.woff2') format("woff2");
-     font-weight: 700;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-700-Bold.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-700-BoldItalic.woff2') format("woff2");
-     font-weight: 700;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-700-BoldItalic.woff2') format("woff2");
+    font-weight: 700;
+    font-style: oblique;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-800-Heavy.woff2') format("woff2");
-     font-weight: 800;
-     font-style: normal;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-800-Heavy.woff2') format("woff2");
+    font-weight: 800;
+    font-style: normal;
 }
 @font-face {
-     font-family: "Jost";
-     src: url('/custom/themes/EFAD/Jost-800-HeavyItalic.woff2') format("woff2");
-     font-weight: 800;
-     font-style: oblique;
+    font-family: "Jost";
+    src: url('/custom/themes/EFAD/Jost-800-HeavyItalic.woff2') format("woff2");
+    font-weight: 800;
+    font-style: oblique;
 }
 
 
 /*****ROOT (COLOR AND FONT KEY)*****/
 :root{
-    /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
-    --text-gray: #D8D8D8;
-    --devils-gray-lol: #666;
-    --background-gray: #192124;
-    --soft-gray: #23272E;
-    --sand: #D3C6AA;
-    --tan: #F4D289;
-    --cool-gray: #5D7576;
-    --light-turquoise: #6DF9CD;
-    --soft-sea-green: #99ccb1;
-    --header-font-family: Jost, sans-serif;
-    --code-select-gray: #253749;
-    --table-header-gray: #30363B;
-    --tree-background-gray: #232A2E;
-    --cherry-red: #FF3030;
-    --code-comment: #95ACB2;
-    --code-tag: #759DC2;
-    --code-string: #91A192;
-    --code-number: #FFB380;
-    --code-pseudo: #27AE60;
-    --code-class: #5BB394;
-    --code-keyword: #CE9292;
-    --code-meta: #BDA88C;
-    --code-def: #5C9CE4;
-    --code-var: #D29E58;
-    --code-builtin: #C39AD0;
-    --code-attribute: #CBE0EA;
+   /***main body (including CKEditor), modal(options menu), and some code colors (see last section for more code colors)*/
+   --text-gray: #D8D8D8;
+   --devils-gray-lol: #666;
+   --background-gray: #192124;
+   --soft-gray: #23272E;
+   --sand: #D3C6AA;
+   --tan: #F4D289;
+   --cool-gray: #5D7576;
+   --light-turquoise: #6DF9CD;
+   --soft-sea-green: #99ccb1;
+   --header-font-family: Jost, sans-serif;
+   --code-select-gray: #253749;
+   --table-header-gray: #30363B;
+   --tree-background-gray: #232A2E;
+   --cherry-red: #FF3030;
+   --code-comment: #95ACB2;
+   --code-tag: #759DC2;
+   --code-string: #91A192;
+   --code-number: #FFB380;
+   --code-pseudo: #27AE60;
+   --code-class: #5BB394;
+   --code-keyword: #CE9292;
+   --code-meta: #BDA88C;
+   --code-def: #5C9CE4;
+   --code-var: #D29E58;
+   --code-builtin: #C39AD0;
+   --code-attribute: #CBE0EA;
 }
 
 
@@ -139,706 +139,706 @@ This theme inspired by and meant to be paired with the KDE Plasma theme Ant Dark
 These are variables that already exist in the native stylesheet, just redefined here. This could have been put in ':root' or 'body{}' but for the sake of organization, I kept them in 'html' where they have been similarly placed in the Light Theme.
 ******************************************************************/
 html {
-    --theme-style: dark;
+   --theme-style: dark;
 
-    /***fonts***/
-    /*general fonts*/
-    --main-font-family: Jost, sans-serif;
-    --main-font-size: 1.2rem;
+   /***fonts***/
+   /*general fonts*/
+   --main-font-family: Jost, sans-serif;
+   --main-font-size: 1.2rem;
 
-    --tree-font-family: Jost, sans-serif;
-    --tree-font-size: 1.3rem;
+   --tree-font-family: Jost, sans-serif;
+   --tree-font-size: 1.3rem;
 
-    --detail-font-family: Jost, sans-serif;
-    --detail-font-size: 1.3rem;
+   --detail-font-family: Jost, sans-serif;
+   --detail-font-size: 1.3rem;
 
-   /*code fonts*/
-    --monospace-font-family: JetBrainsMono, monospace;
-    --monospace-font-size: 1.2rem;
+  /*code fonts*/
+   --monospace-font-family: JetBrainsMono, monospace;
+   --monospace-font-size: 1.2rem;
 
-    /***colors***/
-    /*main notes window*/
-    --main-background-color: var(--background-gray);
-    --main-text-color: var(--text-gray);
-    --main-border-color: var(--devils-gray-lol);
+   /***colors***/
+   /*main notes window*/
+   --main-background-color: var(--background-gray);
+   --main-text-color: var(--text-gray);
+   --main-border-color: var(--devils-gray-lol);
 
-    /*changes the window icons(x, [], -) and some text fields*/
-    --accented-background-color: var(--soft-gray);
+   /*changes the window icons(x, [], -) and some text fields*/
+   --accented-background-color: var(--soft-gray);
 
-    /*changes the edit icons on text notes and the alert messages*/
-    --more-accented-background-color: var(--table-header-gray);
+   /*changes the edit icons on text notes and the alert messages*/
+   --more-accented-background-color: var(--table-header-gray);
 
-   /*left, bottom left, and lower upper right icons*/
-    --button-background-color: transparent;
-    --button-disabled-background-color: var(--table-header-gray);
-    --button-border-color: var(--text-gray);
-    --button-text-color: var(--text-gray);
-    --button-border-radius: 5px;
+  /*left, bottom left, and lower upper right icons*/
+   --button-background-color: transparent;
+   --button-disabled-background-color: var(--table-header-gray);
+   --button-border-color: var(--text-gray);
+   --button-text-color: var(--text-gray);
+   --button-border-radius: 5px;
 
-    /*changes button in label detail*/
-    --primary-button-background-color: var(--table-header-gray);
-    --primary-button-text-color:  var(--text-gray);
-    --primary-button-border-color:  var(--text-gray);
+   /*changes button in label detail*/
+   --primary-button-background-color: var(--table-header-gray);
+   --primary-button-text-color:  var(--text-gray);
+   --primary-button-border-color:  var(--text-gray);
 
-    /* "muted-text-color" affects several components, but most are individually styled in this doc, so this should only affect the drop shadow of protected notes titles. */
-    --muted-text-color: var(--devils-gray-lol);
+   /* "muted-text-color" affects several components, but most are individually styled in this doc, so this should only affect the drop shadow of protected notes titles. */
+   --muted-text-color: var(--devils-gray-lol);
 
-    /*notes title and text fields in options menu and find (ctrl+f) search*/
-    --input-text-color: var(--sand);
-    /*affects find (ctrl+f) search input when inactive*/
-    --input-background-color: var(--sand);
+   /*notes title and text fields in options menu and find (ctrl+f) search*/
+   --input-text-color: var(--sand);
+   /*affects find (ctrl+f) search input when inactive*/
+   --input-background-color: var(--sand);
 
-    /*changes the 'x' on the note tabs and the right+click and trilium (icon) menus*/
-    --hover-item-text-color: var(--text-gray);
-    /*changes side and right+click menus and note tabs*/
-    --hover-item-background-color: var(--soft-gray);
+   /*changes the 'x' on the note tabs and the right+click and trilium (icon) menus*/
+   --hover-item-text-color: var(--text-gray);
+   /*changes side and right+click menus and note tabs*/
+   --hover-item-background-color: var(--soft-gray);
 
-    /*tree*/
-    --active-item-text-color: var(--soft-gray);
-    --active-item-background-color: var(--sand);
-    --left-pane-background-color: var(--tree-background-gray);
-    --left-pane-text-color: var(--text-gray);
+   /*tree*/
+   --active-item-text-color: var(--soft-gray);
+   --active-item-background-color: var(--sand);
+   --left-pane-background-color: var(--tree-background-gray);
+   --left-pane-text-color: var(--text-gray);
 
-    /*right+click menus*/
-    --menu-text-color: var(--text-gray);
-    --menu-background-color: var(--background-gray);
+   /*right+click menus*/
+   --menu-text-color: var(--text-gray);
+   --menu-background-color: var(--background-gray);
 
-    /*the options menu*/
-    --modal-background-color: var(--background-gray);
-    --modal-backdrop-color: var(--text-gray);
+   /*the options menu*/
+   --modal-background-color: var(--background-gray);
+   --modal-backdrop-color: var(--text-gray);
 
-    /*left and bottom left menus*/
-    --launcher-pane-background-color: var(--background-gray);
-    --launcher-pane-text-color: var(--sand);
+   /*left and bottom left menus*/
+   --launcher-pane-background-color: var(--background-gray);
+   --launcher-pane-text-color: var(--sand);
 
-    /*tabs*/
-    --active-tab-background-color: var(--sand);
-    --active-tab-text-color: var(--background-gray);
-    --inactive-tab-background-color: var(--table-header-gray);
-    --inactive-tab-text-color: var(--text-gray);
-    --active-tab-hover-background-color: var(--text-gray);
-    --inactive-tab-hover-background-color: var(--soft-gray);
+   /*tabs*/
+   --active-tab-background-color: var(--sand);
+   --active-tab-text-color: var(--background-gray);
+   --inactive-tab-background-color: var(--table-header-gray);
+   --inactive-tab-text-color: var(--text-gray);
+   --active-tab-hover-background-color: var(--text-gray);
+   --inactive-tab-hover-background-color: var(--soft-gray);
 
-    /*general*/
-    --scrollbar-border-color: var(--sand);
-    --tooltip-background-color: var(--background-gray);
-    --link-color: var(--light-turquoise);
+   /*general*/
+   --scrollbar-border-color: var(--sand);
+   --tooltip-background-color: var(--background-gray);
+   --link-color: var(--light-turquoise);
 
-    --mermaid-theme: dark;
+   --mermaid-theme: dark;
 }
 
 
 /*****Image Caption*****/
 .ck-content figure.image>figcaption {
-    font-size: 1rem;
-    font-weight: 300;
-    font-style: oblique;
-    color: var(--sand) !important;
+   font-size: 1rem;
+   font-weight: 300;
+   font-style: oblique;
+   color: var(--sand) !important;
 }
 .ck-content figure.image>figcaption code {
-    font-size: .8rem;
+   font-size: .8rem;
 }
 .ck-content figure.image>figcaption i {
-    font-style: normal;
-    color: var(--text-gray);
+   font-style: normal;
+   color: var(--text-gray);
 }
 .ck-content figure.image>figcaption b, .ck-content figure.image>figcaption strong {
-    color: var(--text-gray);
+   color: var(--text-gray);
 }
 
 
 /*****Scrollbar*****/
 ::-webkit-scrollbar-thumb{
-    background-color: transparent !important;
+   background-color: transparent !important;
 }
 ::-webkit-scrollbar-thumb:hover{
-    border-color: var(--tan) !important;
+   border-color: var(--tan) !important;
 }
 
 
 /*****TABS*****/
 .tab-row-widget .note-tab .note-tab-wrapper {
-    height: 46px !important;
-    font-size: var(--detail-font-size);
-    font-family: var(--header-font-family);
+   height: 46px !important;
+   font-size: var(--detail-font-size);
+   font-family: var(--header-font-family);
 }
 .tab-row-widget .note-tab .note-tab-title {
-    font-size: 1.5rem;
+   font-size: 1.5rem;
 }
 .tab-row-widget .note-tab .note-tab-close {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+   font-size: 1.5rem;
+   margin-bottom: 10px;
 }
 .note-tab div.note-tab-close.bx.bx-x:hover {
-    background: transparent;
-    color: var(--tan);
+   background: transparent;
+   color: var(--tan);
 }
 .note-tab[active] div.note-tab-close.bx.bx-x:hover {
-    background: transparent;
-    color: var(--cherry-red);
+   background: transparent;
+   color: var(--cherry-red);
 }
 
 /*fixes the issue of not being able to access widgets in the top bar*/
 .tab-row-filler {
-    -webkit-app-region: none !important;
+   -webkit-app-region: none !important;
 }
 
 
 /*****TOC*****/
 span.toc ol, span.highlights-list ol {
-    padding-left: 1.5rem;
-   }
+padding-left: 1.5rem;
+}
 
 /***Only applies if 'Show Position in TOC' widget is in use***/
 .toc-widget span.toc li[style] {
-    color: var(--tan) !important;
+   color: var(--tan) !important;
 }
 .toc-widget span.toc li:not([style*="color:"]) {
-    color: inherit !important;
+   color: inherit !important;
 }
 
 .toc-widget .toc li, .highlights-list > ol > li {
-    text-align: left;
+   text-align: left;
 }
 
 
 /*****Included Notes*****/
 .include-note {
-    margin-bottom: 1.1rem !important;
+   margin-bottom: 1.1rem !important;
 }
 
 
 /*****HEADERS*****/
 /*h1 is not defined, because it's not currently an option for headers in the main body*/
 .ck-content h2 {
-    color: #C0902B;
-    font-weight: 800;
-    font-family: var(--header-font-family);
-    font-size: 2rem;
+   color: #C0902B;
+   font-weight: 800;
+   font-family: var(--header-font-family);
+   font-size: 2rem;
 }
 .ck-content h2 code, .ck-content h2 code b, .ck-content h2 code strong, .ck-content h2 code i, .ck-content h2 code em {
-    font-size: 1.7rem;
-    background: transparent;
+   font-size: 1.7rem;
+   background: transparent;
 }
 
 .ck-content h3 {
-    color: #B29556;
-    font-weight: 700;
-    font-family: var(--header-font-family);
-    font-size: 1.9rem;
+   color: #B29556;
+   font-weight: 700;
+   font-family: var(--header-font-family);
+   font-size: 1.9rem;
 }
 .ck-content h3 code, .ck-content h3 code b, .ck-content h3 code strong, .ck-content h3 code i, .ck-content h3 code em {
-    font-size: 1.6rem;
-    background: transparent;
+   font-size: 1.6rem;
+   background: transparent;
 }
 
 .ck-content h4 {
-    color: #E2B24D;
-    font-weight: 600;
-    font-family: var(--header-font-family);
-    font-size: 1.78rem;
+   color: #E2B24D;
+   font-weight: 600;
+   font-family: var(--header-font-family);
+   font-size: 1.78rem;
 }
 .ck-content h4 code, .ck-content h4 code b, .ck-content h4 code strong, .ck-content h4 code i, .ck-content h4 code em {
-    font-size: 1.5rem;
-    background: transparent;
+   font-size: 1.5rem;
+   background: transparent;
 }
 
 .ck-content h5 {
-    color: #BDA97F;
-    font-weight: 600;
-    font-family: var(--header-font-family);
-    font-size: 1.65rem;
+   color: #BDA97F;
+   font-weight: 600;
+   font-family: var(--header-font-family);
+   font-size: 1.65rem;
 }
 .ck-content h5 code, .ck-content h5 code b, .ck-content h5 code strong, .ck-content h5 code i, .ck-content h5 code em {
-    font-size: 1.4rem;
-    background: transparent;
+   font-size: 1.4rem;
+   background: transparent;
 }
 
 .ck-content h6 {
-    color: var(--tan);
-    font-weight: 600;
-    font-family: var(--header-font-family);
-    font-size: 1.53rem;
+   color: var(--tan);
+   font-weight: 600;
+   font-family: var(--header-font-family);
+   font-size: 1.53rem;
 }
 .ck-content h6 code, .ck-content h6 code b, .ck-content h6 code strong, .ck-content h6 code i, .ck-content h6 code em {
-    font-size: 1.3rem;
-    background: transparent;
+   font-size: 1.3rem;
+   background: transparent;
 }
 
 
 /*****TABLE*****/
 .ck-content .table>figcaption {
-    background-color: var(--table-header-gray);
-    color: var(--tan);
-    font-size: 1.3rem;
-    font-weight: 600;
-    font-family: var(--header-font-family);
+   background-color: var(--table-header-gray);
+   color: var(--tan);
+   font-size: 1.3rem;
+   font-weight: 600;
+   font-family: var(--header-font-family);
 }
 .ck-content .table table, .ck-content .table table td, .ck-content .table table th {
-    border: none;
+   border: none;
 }
 .ck-content .table table th {
-    font-weight: 600 !important;
-    font-size: 1.15rem;
-    color: var(--sand)
+   font-weight: 600 !important;
+   font-size: 1.15rem;
+   color: var(--sand)
 }
 tr:nth-child(odd) {
-    background-color: var(--table-header-gray);
+   background-color: var(--table-header-gray);
 }
 .ck-content .table table th {
-    background-color: var(--background-gray) !important;
+   background-color: var(--background-gray) !important;
 }
 .ck-content .table table tbody tr:nth-child(odd) th{
-    background-color: var(--table-header-gray) !important;
+   background-color: var(--table-header-gray) !important;
 }
 .ck-content .table table tbody tr:nth-child(even) th{
-    background-color: var(--background-gray) !important;
+   background-color: var(--background-gray) !important;
 }
 .ck-content .table table {
-    width: 100%;
-    max-height: 90vh;
-    overflow: auto;
+   width: 100%;
+   max-height: 90vh;
+   overflow: auto;
 }
 .ck-content .table table thead th {
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	z-index: 1;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 1;
 }
 .ck-content .table table tbody th {
-	position: relative;
+   position: relative;
 }
 .ck-content .table table thead th:first-child {
-	position: sticky;
-	position: -webkit-sticky;
-	left: 0;
-	z-index: 2;
+   position: sticky;
+   position: -webkit-sticky;
+   left: 0;
+   z-index: 2;
 }
 .ck-content .table table tbody th {
-	position: sticky;
-	left: 0;
-	z-index: 1;
+   position: sticky;
+   left: 0;
+   z-index: 1;
 }
 
 
 /*****TEXT DECORATION*****/
 body strong, body b {
- color:var(--sand);
- font-weight: 700;
+color:var(--sand);
+font-weight: 700;
 }
 body em, body i {
- color:var(--sand);
+color:var(--sand);
 }
 body u {
-    text-decoration-style: dashed;
+   text-decoration-style: dashed;
 }
 body s, body del {
-    text-decoration-style: double;
+   text-decoration-style: double;
 }
 
 /***lists***/
 li label {
-    display: inline;
-    line-height: 2rem;
+   display: inline;
+   line-height: 2rem;
 }
 .ck-content .todo-list .todo-list__label>input[checked]:before, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input[checked]:before{
-    background: var(--soft-sea-green);
-    border-color: var(--soft-sea-green) !important;
+   background: var(--soft-sea-green);
+   border-color: var(--soft-sea-green) !important;
 }
 .ck-content .todo-list .todo-list__label>input[checked]:after, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input[checked]:after {
-    border-color: var(--background-gray);
+   border-color: var(--background-gray);
 }
 .ck-content .todo-list .todo-list__label > input:not([checked]):before, .ck-editor__editable.ck-content .todo-list .todo-list__label>span[contenteditable=false]>input:not([checked]):before {
-    border: 1px solid var(--cherry-red) !important;
+   border: 1px solid var(--cherry-red) !important;
 }
 
 /***italics and quotes***/
 body em, body i {
-  color:var(--sand);
+ color:var(--sand);
 }
 .ck-content blockquote {
-    color: var(--sand);
-    font-weight: 300;
-    font-size: 1.5rem;
-    overflow: hidden;
-    padding-right: 1.5em;
-    padding-left: .5em;
-    margin-left: 0;
-    margin-right: 0;
-    font-style: italic;
-    border-left: 3px solid var(--tan);
+   color: var(--sand);
+   font-weight: 300;
+   font-size: 1.5rem;
+   overflow: hidden;
+   padding-right: 1.5em;
+   padding-left: .5em;
+   margin-left: 0;
+   margin-right: 0;
+   font-style: italic;
+   border-left: 3px solid var(--tan);
 }
 .ck-content blockquote p{
-    margin-bottom: 0;
-    padding-bottom: .3em;
+   margin-bottom: 0;
+   padding-bottom: .3em;
 }
 .ck-content blockquote i{
-    font-style: normal;
-    color: var(--text-gray);
+   font-style: normal;
+   color: var(--text-gray);
 }
 .ck-content blockquote b, .ck-content blockquote strong{
-    color: var(--text-gray);
-    font-weight: 500;
+   color: var(--text-gray);
+   font-weight: 500;
 }
 .ck-content blockquote code, .ck-content blockquote code i, .ck-content blockquote code strong {
-    font-size: 1.1rem;
+   font-size: 1.1rem;
 }
 .ck-content blockquote code strong {
-    font-weight: 700;
+   font-weight: 700;
 }
 
 
 /*****LINKS*****/
 body a *, a.ck-widget span {
-	color: var(--link-color);
+   color: var(--link-color);
 }
 .ck-content a:hover {
-    text-decoration-style: double !important;
+   text-decoration-style: double !important;
 }
 .ck-content a[href^="#root"]:not(.ck-widget) {
-    text-decoration: underline dotted;
+   text-decoration: underline dotted;
 }
 .ck-content a:not([href^="#"],[href^="https://"],[href^="http://"]) {
-    color: var(--cherry-red);
-    text-decoration: underline wavy 1px;
+   color: var(--cherry-red);
+   text-decoration: underline wavy 1px;
 }
 
 
 /*****ICONS*****/
 /*main note icon*/
 .note-icon::before {
-    color: var(--devils-gray-lol);
+   color: var(--devils-gray-lol);
 }
 .note-icon:hover::before {
-    color: var(--sand);
-    border-color: var(--sand) !important; /*not working*/
+   color: var(--sand);
+   border-color: var(--sand) !important; /*not working*/
 }
 .note-icon:focus::before, .bx-calendar:focus::before {
-    color: var(--sand);
+   color: var(--sand);
 }
 .icon-list {
-    color: var(--soft-sea-green);
+   color: var(--soft-sea-green);
 }
 
 /***note properties menu***/
 .ribbon-tab-title-icon {
-     color: var(--devils-gray-lol);
+    color: var(--devils-gray-lol);
 }
 .ribbon-tab-title-icon:hover {
-     color: var(--sand);
+    color: var(--sand);
 }
 
 /***launcher, floating tree, icon action and title bar buttons***/
 div.title-bar-buttons.component button, button.icon-action, .icon-action {
-    color: var(--sand) !important;
+   color: var(--sand) !important;
 }
 #launcher-pane .launcher-button:hover, button.tree-floating-button:hover, .title-bar-buttons div:hover button, button.icon-action:hover, .icon-action:hover {
-    color: var(--tan) !important;
-    border: none !important;
+   color: var(--tan) !important;
+   border: none !important;
 }
 
 /***Calendar***/
 div.dropdown-menu.dropdown-menu-right > div.calendar-dropdown-widget > div.calendar-body > a.calendar-date:hover, .calendar-dropdown-widget .calendar-btn:hover {
-    color: var(--tan) !important;
-    background: var(--soft-gray);
+   color: var(--tan) !important;
+   background: var(--soft-gray);
 }
 a.calendar-date.calendar-date-exists {
-    color: var(--sand);
+   color: var(--sand);
 }
 a.calendar-date.calendar-date-today {
-    background: var(--table-header-gray);
+   background: var(--table-header-gray);
 }
 
 /***tree***/
 /*note icon*/
 .fancytree-custom-icon {
-    color: var(--sand);
+   color: var(--sand);
 }
 span.fancytree-active > .fancytree-custom-icon {
-    color: var(--soft-gray);
+   color: var(--soft-gray);
 }
 .note-icon-widget button.note-icon {
-    border: none !important;
+   border: none !important;
 }
 span.fancytree-node.protected > span.fancytree-custom-icon {
-    filter: drop-shadow(2px 2px 2px var(--soft-sea-green));
+   filter: drop-shadow(2px 2px 2px var(--soft-sea-green));
 }
 /*drop down icon*/
 .fancytree-expander::before {
-    color: var(--devils-gray-lol);
+   color: var(--devils-gray-lol);
 }
 /*tree action buttons*/
 button.tree-floating-button {
-    font-size: 1.5rem !important;
+   font-size: 1.5rem !important;
 }
 
 /***Trilium icon***/
 body .global-menu-button {
-    background-image: url("/assets/vX/images/icon-grey.png");
+   background-image: url("/assets/vX/images/icon-grey.png");
 }
 
 
 /*****INPUT FIELDS*****/
 /***password and options menu fields***/
 .form-control {
-    color: var(--text-gray) !important;
+   color: var(--text-gray) !important;
 }
 .form-control:focus {
-    color: var(--sand) !important;
-    background-color: var(--soft-gray);
-    border-color: var(--text-gray) !important;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
+   color: var(--sand) !important;
+   background-color: var(--soft-gray);
+   border-color: var(--text-gray) !important;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
 }
 
 .component.title-row{
-    margin-top: 10px;
-    margin-bottom: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 .note-title-widget input.note-title {
-    font-family: var(--header-font-family);
+   font-family: var(--header-font-family);
 }
 .note-title:focus {
-    color: var(--text-gray) !important;
-    background-color: var(--soft-gray) !important;
-    border-color: var(--text-gray) !important;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
+   color: var(--text-gray) !important;
+   background-color: var(--soft-gray) !important;
+   border-color: var(--text-gray) !important;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
 }
 
 /***selection and find/replace (button)***/
 ::selection {
-    background: #253749 !important /*var(--code-select-gray)*/;
+   background: #253749 !important /*var(--code-select-gray)*/;
 }
 span.ck-find-result {
-    color: var(--background-gray) !important;
-    background: var(--sand);
+   color: var(--background-gray) !important;
+   background: var(--sand);
 }
 span.ck-find-result_selected {
-    color: var(--background-gray) !important;
-    background: var(--tan);
+   color: var(--background-gray) !important;
+   background: var(--tan);
 }
 
 /***Modal search active dropdown selection***/
 .aa-dropdown-menu .aa-suggestion.aa-cursor b {
-    color: var(--soft-gray);
+   color: var(--soft-gray);
 }
 
 /***Empty note field***/
 input.form-control.note-autocomplete.note-autocomplete-input.aa-input {
-    height: auto;
+   height: auto;
 }
 
 
 /*****BUTTONS*****/
 /***modal buttons***/
 button.help-button {
-    color: var(--sand);
-    padding: 0;
+   color: var(--sand);
+   padding: 0;
 }
 button.help-button:hover {
-    color: var(--tan);
+   color: var(--tan);
 }
 
 /*edit button*/
 .bx-edit-alt {
-    height: 40px;
+   height: 40px;
 }
 
 /***primary and secondary buttons***/
 button:focus :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-button-cancel), .btn:focus {
-    color: var(--text-gray) !important;
-    background-color: var(--devils-gray-lol) !important;
-    border-color: var(--text-gray) !important;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
+   color: var(--text-gray) !important;
+   background-color: var(--devils-gray-lol) !important;
+   border-color: var(--text-gray) !important;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
 }
 button:hover :not(.close) :not(.help-button) :not(.ck-button-save) :not(.ck-button-cancel), .btn:hover {
-    background-color: var(--soft-gray) !important;
-    color: var(--sand);
-    border-color: var(--sand);
+   background-color: var(--soft-gray) !important;
+   color: var(--sand);
+   border-color: var(--sand);
 }
 
 /***table sub-menu***/
 /*table field input label*/
 .ck.ck-labeled-field-view>.ck.ck-labeled-field-view__input-wrapper>.ck.ck-label{
-    background: var(--soft-gray);
-    color: var(--text-gray);
+   background: var(--soft-gray);
+   color: var(--text-gray);
 }
 /*table field and button inputs*/
 .ck.ck-button:active, .ck.ck-button:focus, a.ck.ck-button:active, a.ck.ck-button:focus, .ck.ck-input-text:focus {
-    border: 1px solid var(--text-gray) !important;
-    box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
+   border: 1px solid var(--text-gray) !important;
+   box-shadow: 0 0 0 0.2rem rgb(252 251 179 / 50%) !important;
 }
 .ck.ck-input-text[readonly]:focus {
-    border: 1px solid var(--ck-color-input-disabled-border) !important;
-    background: var(--ck-color-input-disabled-background) !important;
-    color: var(--ck-color-input-disabled-text) !important;
+   border: 1px solid var(--ck-color-input-disabled-border) !important;
+   background: var(--ck-color-input-disabled-background) !important;
+   color: var(--ck-color-input-disabled-text) !important;
 }
 /*color button*/
 .ck.ck-input-color>.ck.ck-dropdown>.ck.ck-button.ck-input-color__button.ck-disabled, .ck.ck-input-color>.ck.ck-dropdown>.ck.ck-button.ck-input-color__button.ck-disabled>.ck.ck-input-color__button__preview, .ck.ck-input-color>.ck.ck-dropdown>.ck.ck-button.ck-input-color__button.ck-disabled>.ck.ck-input-color__button__preview>.ck.ck-input-color__button__preview__no-color-indicator {
-    border: 1px solid var(--ck-color-input-disabled-border) !important;
+   border: 1px solid var(--ck-color-input-disabled-border) !important;
 }
 /*image caption field*/
 .ck .ck-editor__nested-editable.ck-editor__nested-editable_focused, .ck .ck-editor__nested-editable:focus {
-    background-color: var(--ck-color-widget-editable-focus-background);
-    border: none /*var(--ck-focus-ring)*/;
-    box-shadow: var(--ck-inner-shadow),0 0;
-    outline: none;
+   background-color: var(--ck-color-widget-editable-focus-background);
+   border: none /*var(--ck-focus-ring)*/;
+   box-shadow: var(--ck-inner-shadow),0 0;
+   outline: none;
 }
 /*backend logs*/
 textarea.backend-log-textarea {
-    color: var(--soft-sea-green) !important;
-    background: var(--soft-gray) !important;
+   color: var(--soft-sea-green) !important;
+   background: var(--soft-gray) !important;
 }
 
 
 /*****NOTE MAP*****/
 .note-detail-relation-map path, .note-detail-relation-map .jtk-endpoint{
-    fill: var(--soft-sea-green) !important;
+   fill: var(--soft-sea-green) !important;
 }
 svg.jtk-connector path {
-    stroke: var(--soft-sea-green);
-    fill: none !important;
+   stroke: var(--soft-sea-green);
+   fill: none !important;
 }
 .note-detail-relation-map .note-box {
-    padding: 12px 30px 12px 12px;
-    position: absolute !important;
-    background-color: var(--tree-background-gray);
-    color: var(--main-text-color);
-    z-index: 4;
-    border: 1px solid #666;
-    box-shadow: 1px 1px 12px #777;
-    border-radius: 8px;
-    opacity: 0.9;
-    font-size: 15px;
-    width: auto;
-    height: auto;
-    max-width: 230px;
-    min-width: 150px;
-    max-height: 200px;
-    overflow: hidden;
+   padding: 12px 30px 12px 12px;
+   position: absolute !important;
+   background-color: var(--tree-background-gray);
+   color: var(--main-text-color);
+   z-index: 4;
+   border: 1px solid #666;
+   box-shadow: 1px 1px 12px #777;
+   border-radius: 8px;
+   opacity: 0.9;
+   font-size: 15px;
+   width: auto;
+   height: auto;
+   max-width: 230px;
+   min-width: 150px;
+   max-height: 200px;
+   overflow: hidden;
 }
 
 
 /*****FLOATING BUTTONS*****/
 /***Backlinks Popup***/
 .floating-buttons-children {
-    flex-direction: column-reverse !important;
+   flex-direction: column-reverse !important;
 }
 .backlinks-ticker {
-    padding: 6px 3px !important;
-    writing-mode: vertical-lr;
-    margin-bottom: 15px;
+   padding: 6px 3px !important;
+   writing-mode: vertical-lr;
+   margin-bottom: 15px;
 }
 div.backlinks-items {
-    z-index: 10;
-    position: absolute;
-    top: 50px;
-    right: 10px;
-    width: 400px;
-    border-radius: 10px;
-    background-color: var(--soft-gray);
-    color: var(--text-gray);
-    padding: 20px;
-    overflow-y: auto;
-    box-shadow: 2px 2px 5px  var(--text-gray);
+   z-index: 10;
+   position: absolute;
+   top: 50px;
+   right: 10px;
+   width: 400px;
+   border-radius: 10px;
+   background-color: var(--soft-gray);
+   color: var(--text-gray);
+   padding: 20px;
+   overflow-y: auto;
+   box-shadow: 2px 2px 5px  var(--text-gray);
 }
 div.backlinks-items div:hover {
-    background-color: var(--code-select-gray);
+   background-color: var(--code-select-gray);
 }
 .backlink-excerpt .backlink-link {
-     background-color: var(--table-header-gray) !important;
+    background-color: var(--table-header-gray) !important;
 }
 .backlinks-ticker:hover {
-    background-color: var(--code-select-gray);
+   background-color: var(--code-select-gray);
 }
 
-/***Relation Map and Canvas Buttons***/
+/***Relation Map and CanvasButtons***/
 .relation-map-buttons {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
 }
 .relation-map-buttons > .btn-group {
-    position: relative;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    flex-direction: column;
-    vertical-align: middle;
+   position: relative;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   flex-direction: column;
+   vertical-align: middle;
 }
 .relation-map-buttons > button, .relation-map-buttons > .btn-group button {
-    border: none !important;
+   border: none !important;
 }
-.relation-map-buttons > .btn-group > .btn-group:not(:first-child), .relation-map-buttons > .btn-group > .btn:not(:first-child), .relation-map-buttons > .btn-group > .btn-group:not(:last-child) >.btn, .relation-map-buttons > .btn-group > .btn:not(:last-child):not(.dropdown-toggle), button.copy-image-reference-button, button.export-mermaid-button {
-    margin: 5px 0 5px 1px !important;
-    border-radius: var(--button-border-radius);
+.relation-map-buttons > .btn-group > .btn-group:not(:first-child), .relation-map-buttons > .btn-group > .btn:not(:first-child), .relation-map-buttons > .btn-group > .btn-group:not(:last-child) >.btn, .relation-map-buttons > .btn-group > .btn:not(:last-child):not(.dropdown-toggle), button.copy-image-reference-button, button.export-mermaid-button  {
+   margin: 5px 0 5px 1px !important;
+   border-radius: var(--button-border-radius);
 }
 .relation-map-buttons > button:hover, .relation-map-buttons > .btn-group button:hover, button.copy-image-reference-button:hover, button.export-mermaid-button:hover {
-    border: none;
-    background: transparent !important;
-    color: var(--tan);
+   border: none;
+   background: transparent !important;
+   color: var(--tan);
 }
 
 /***Close Button***/
 .close-floating-buttons-button {
-    border: none !important;
-    color: var(--button-text-color);
-    padding: 6px;
-    border-radius: 100px;
-    margin: 5px;
+   border: none !important;
+   color: var(--button-text-color);
+   padding: 6px;
+   border-radius: 100px;
+   margin: 5px;
 }
 .close-floating-buttons-button:hover {
-    border: none !important;
-    color: var(--cherry-red) !important;
+   border: none !important;
+   color: var(--cherry-red) !important;
 }
 
 
 /*****ATTRIBUTES POPUP*****/
 .attr-help td {
-    color: var(--text-gray) !important;
+   color: var(--text-gray) !important;
 }
 
 
 /*****DELETION ALERT*****/
 .alert-danger {
-    color: #f5c6cb;
-    background-color: #930210;
-    border-color: #f5c6cb;
+   color: #f5c6cb;
+   background-color: #930210;
+   border-color: #f5c6cb;
 }
 
 
 /*****CODE IN TEXT NOTES)*****/
 /***code blocks***/
 .ck-content pre {
-    background: var(--soft-gray);
-    font-size: 0.95rem;
-    border-color: var(--soft-sea-green);
+   background: var(--soft-gray);
+   font-size: 0.95rem;
+   border-color: var(--soft-sea-green);
 }
 .ck-content pre code  {
-    font-size: 0.95rem;
-    background: transparent !important;
-    color: var(--soft-sea-green) !important;
+   font-size: 0.95rem;
+   background: transparent !important;
+   color: var(--soft-sea-green) !important;
 }
 /*code block label*/
 pre::after{
-    background: var(--code-select-gray) !important;
-    color: var(--sand) !important;
-    border-color: var(--sand) !important;
-    letter-spacing: 1px;
+   background: var(--code-select-gray) !important;
+   color: var(--sand) !important;
+   border-color: var(--sand) !important;
+   letter-spacing: 1px;
 }
 
 /***inline code***/
 .ck-content code, .ck-content code i, .ck-content code strong  {
-    font-size: .95rem;
-    background: var(--soft-gray);
-    color: var(--soft-sea-green) !important;
-    letter-spacing: 1px;
-    padding: 0;
+   font-size: .95rem;
+   background: var(--soft-gray);
+   color: var(--soft-sea-green) !important;
+   letter-spacing: 1px;
+   padding: 0;
 }
 .ck-content .ck-code_selected {
-    background-color: var(--code-select-gray) !important;
-    letter-spacing: 1px;
+   background-color: var(--code-select-gray) !important;
+   letter-spacing: 1px;
 }
 
 
@@ -850,99 +850,99 @@ I've commented out the lines that don't seem to have an affect on anything, alon
 ******************************************************************/
 
 body {
-    /***overrides generic colors***/
-    --ck-color-base-text: var(--tan); /*toggled color (editor sub-menu)*/
-    --ck-color-base-foreground: var(--table-header-gray); /*tiny attached triangle and selection hover*/
-    --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
-    --ck-color-text: var(--soft-sea-green); /*text color*/
-    /* --ck-color-shadow-drop: red; /*?*/
-    /* --ck-color-shadow-inner: red; /*?*/
+   /***overrides generic colors***/
+   --ck-color-base-text: var(--tan); /*toggled color (editor sub-menu)*/
+   --ck-color-base-foreground: var(--table-header-gray); /*tiny attached triangle and selection hover*/
+   --ck-color-focus-border: var(--sand); /*table and color (editor menu) focus*/
+   --ck-color-text: var(--soft-sea-green); /*text color*/
+   /* --ck-color-shadow-drop: red; /*?*/
+   /* --ck-color-shadow-inner: red; /*?*/
 
-    /***overrides the default '.ck-button' class colors***/
-    /*general buttons*/
-    --ck-color-button-default-background: transparent;
-    --ck-color-button-default-hover-background: var(--table-header-gray);
-    --ck-color-button-default-active-background: var(--devils-gray-lol);
-    --ck-color-button-default-active-shadow: var(--devils-gray-lol); /*thin line on top of active buttons*/
-    --ck-color-button-default-disabled-background:  var(--background-gray); /*disabled buttons*/
-    --ck-color-button-on-color: var(--tan); /*selected property/button*/
+   /***overrides the default '.ck-button' class colors***/
+   /*general buttons*/
+   --ck-color-button-default-background: transparent;
+   --ck-color-button-default-hover-background: var(--table-header-gray);
+   --ck-color-button-default-active-background: var(--devils-gray-lol);
+   --ck-color-button-default-active-shadow: var(--devils-gray-lol); /*thin line on top of active buttons*/
+   --ck-color-button-default-disabled-background:  var(--background-gray); /*disabled buttons*/
+   --ck-color-button-on-color: var(--tan); /*selected property/button*/
 
-    /*dropdown buttons*/
-    --ck-color-button-on-background: var(--code-select-gray); /*active*/
-    --ck-color-button-on-hover-background: var(--table-header-gray); /*hover*/
-    --ck-color-button-on-active-background: var(--devils-gray-lol); /*exit click on active*/
-    --ck-color-button-on-active-shadow: transparent; /*top line on exit click of active*/
-    /*--ck-color-button-on-disabled-background: red; /*?*/
+   /*dropdown buttons*/
+   --ck-color-button-on-background: var(--code-select-gray); /*active*/
+   --ck-color-button-on-hover-background: var(--table-header-gray); /*hover*/
+   --ck-color-button-on-active-background: var(--devils-gray-lol); /*exit click on active*/
+   --ck-color-button-on-active-shadow: transparent; /*top line on exit click of active*/
+   /*--ck-color-button-on-disabled-background: red; /*?*/
 
-    /*find button (editor sub-menu)*/
-    --ck-color-button-action-background: var(--tan) !important;
-    --ck-color-button-action-hover-background: var(--devils-gray-lol) !important;
-    --ck-color-button-action-active-background: var(--tan) !important; /*find button active and field descritpion*/
-    --ck-color-button-action-active-shadow: transparent !important; /*top line*/
-    /*--ck-color-button-action-disabled-background: red; /*?*/
-    --ck-color-button-action-text: var(--soft-gray) !important; /*find button(editor sub-menu)*/
+   /*find button (editor sub-menu)*/
+   --ck-color-button-action-background: var(--tan) !important;
+   --ck-color-button-action-hover-background: var(--devils-gray-lol) !important;
+   --ck-color-button-action-active-background: var(--tan) !important; /*find button active and field descritpion*/
+   --ck-color-button-action-active-shadow: transparent !important; /*top line*/
+   /*--ck-color-button-action-disabled-background: red; /*?*/
+   --ck-color-button-action-text: var(--soft-gray) !important; /*find button(editor sub-menu)*/
 
-    /*save and cancel*/
-    --ck-color-button-save: var(--soft-sea-green) /*hsl(120, 100%, 46%)*/; /*table sub-menu*/
-    --ck-color-button-cancel: hsl(15, 100%, 56%); /*table sub-menu*/
+   /*save and cancel*/
+   --ck-color-button-save: var(--soft-sea-green) /*hsl(120, 100%, 46%)*/; /*table sub-menu*/
+   --ck-color-button-cancel: hsl(15, 100%, 56%); /*table sub-menu*/
 
-    /***overrides the default '.ck-dropdown' class colors (color sub-menus)***/
-    --ck-color-dropdown-panel-background: var(--soft-gray);
-    --ck-color-dropdown-panel-border: var(--devils-gray-lol);
+   /***overrides the default '.ck-dropdown' class colors (color sub-menus)***/
+   --ck-color-dropdown-panel-background: var(--soft-gray);
+   --ck-color-dropdown-panel-border: var(--devils-gray-lol);
 
-    /***overrides the default '.ck-splitbutton' class colors***/
-    --ck-color-split-button-hover-background: var(--devils-gray-lol);
-    --ck-color-split-button-hover-border: var(--soft-sea-green);
+   /***overrides the default '.ck-splitbutton' class colors***/
+   --ck-color-split-button-hover-background: var(--devils-gray-lol);
+   --ck-color-split-button-hover-border: var(--soft-sea-green);
 
-    /***overrides the default '.ck-input' class colors***/
-    /*--ck-color-input-background: red; /*?*/
-    --ck-color-input-border: var(--text-gray); /*inactive (enabled AND disabled) editable field(editor sub-menus)*/
-    /*--ck-color-input-text: red; /*?*/
-    --ck-color-input-disabled-background: var(--soft-gray); /*disabled color picker(table sub-menu)*/
-    --ck-color-input-disabled-border: var(--background-gray); /*disabled editor border (table sub-menu)*/
-    --ck-color-input-disabled-text: var(--text-gray); /*editor input text (enable AND disabled)*/
+   /***overrides the default '.ck-input' class colors***/
+   /*--ck-color-input-background: red; /*?*/
+   --ck-color-input-border: var(--text-gray); /*inactive (enabled AND disabled) editable field(editor sub-menus)*/
+   /*--ck-color-input-text: red; /*?*/
+   --ck-color-input-disabled-background: var(--soft-gray); /*disabled color picker(table sub-menu)*/
+   --ck-color-input-disabled-border: var(--background-gray); /*disabled editor border (table sub-menu)*/
+   --ck-color-input-disabled-text: var(--text-gray); /*editor input text (enable AND disabled)*/
 
-    /***overrides the default '.ck-list' (list menus) class colors***/
-    --ck-color-list-background: transparent; /*focus out*/
-    --ck-color-list-button-hover-background: var(--table-header-gray);
-    --ck-color-list-button-on-background:  var(--sand); /*toggled active*/
-    --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
-    --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
+   /***overrides the default '.ck-list' (list menus) class colors***/
+   --ck-color-list-background: transparent; /*focus out*/
+   --ck-color-list-button-hover-background: var(--table-header-gray);
+   --ck-color-list-button-on-background:  var(--sand); /*toggled active*/
+   --ck-color-list-button-on-background-focus: var(--devils-gray-lol); /*hover on toggled/active*/
+   --ck-color-list-button-on-text: var(--soft-gray); /*toggled/active*/
 
-    /***overrides the default .ck-balloon-panel class colors (overall look and feel of the editor toolbars and sub-menus)***/
-    --ck-color-panel-background: var(--soft-gray);
-    --ck-color-panel-border: var(--devils-gray-lol);
+   /***overrides the default .ck-balloon-panel class colors (overall look and feel of the editor toolbars and sub-menus)***/
+   --ck-color-panel-background: var(--soft-gray);
+   --ck-color-panel-border: var(--devils-gray-lol);
 
-    /***overrides the default .ck-toolbar class colors***/
-    --ck-color-toolbar-background: var(--soft-gray); /*lots of overlap with the above backgound setting*/
-    --ck-color-toolbar-border: var(--sand); /*section separators*/
+   /***overrides the default .ck-toolbar class colors***/
+   --ck-color-toolbar-background: var(--soft-gray); /*lots of overlap with the above backgound setting*/
+   --ck-color-toolbar-border: var(--sand); /*section separators*/
 
-    /***overrides the default .ck-tooltip class colors***/
-    --ck-color-tooltip-background: var(--sand);
-    --ck-color-tooltip-text: var(--background-gray);
+   /***overrides the default .ck-tooltip class colors***/
+   --ck-color-tooltip-background: var(--sand);
+   --ck-color-tooltip-text: var(--background-gray);
 
-    /* Overrides the default colors used by the ckeditor5-image package.*/
-    /*--ck-color-image-caption-background: red; /*?*/
-    /*--ck-color-image-caption-text: red; /*?*/
+   /* Overrides the default colors used by the ckeditor5-image package.*/
+   /*--ck-color-image-caption-background: red; /*?*/
+   /*--ck-color-image-caption-text: red; /*?*/
 
-    /***overrides the default colors used by the ckeditor5-widget (image/table) package***/
-    --ck-color-widget-blurred-border: var(--devils-gray-lol); /*shows up briefly after switching tabs*/
-    --ck-color-widget-hover-border: var(--sand); /*object in focus*/
-    --ck-color-widget-editable-focus-background: var(--table-header-gray); /*table caption in focus*/
+   /***overrides the default colors used by the ckeditor5-widget (image/table) package***/
+   --ck-color-widget-blurred-border: var(--devils-gray-lol); /*shows up briefly after switching tabs*/
+   --ck-color-widget-hover-border: var(--sand); /*object in focus*/
+   --ck-color-widget-editable-focus-background: var(--table-header-gray); /*table caption in focus*/
 
-    /***overrides the default colors used by the ckeditor5-link package***/
-    /*--ck-color-link-default: red; /*this is overridden by a link setting set earlier in the code*/
+   /***overrides the default colors used by the ckeditor5-link package***/
+   /*--ck-color-link-default: red; /*this is overridden by a link setting set earlier in the code*/
 
-    --ck-color-table-focused-cell-background: var(--table-header-gray);
+   --ck-color-table-focused-cell-background: var(--table-header-gray);
 
-    /*--ck-color-todo-list-checkmark-border: red; /*?*/
+   /*--ck-color-todo-list-checkmark-border: red; /*?*/
 
-    --ck-color-engine-placeholder-text: var(--text-gray); /*caption placeholder text*/
+   --ck-color-engine-placeholder-text: var(--text-gray); /*caption placeholder text*/
 
-    --ck-z-modal: 10000;
+   --ck-z-modal: 10000;
 
-    /*--ck-color-widget-type-around-button: red; /*?*/
-    --ck-color-widget-type-around-button-hover: var(--tan); /*applies when table/image is in focus*/
+   /*--ck-color-widget-type-around-button: red; /*?*/
+   --ck-color-widget-type-around-button-hover: var(--tan); /*applies when table/image is in focus*/
 }
 
 
@@ -955,24 +955,24 @@ NOTE: comments for this section are for how they appear in CSS code notes unless
 /*'...line' is for regular code notes text, not sure what '...line-like' is for*/
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror pre.CodeMirror-line-like {
-    color: var(--text-gray);
+   color: var(--text-gray);
 }
 
 .CodeMirror-linenumber {color: var(--devils-gray-lol);}
 .CodeMirror-cursor {
-    border-left: 1px solid var(--devils-gray-lol);
+   border-left: 1px solid var(--devils-gray-lol);
 }
 
 /***highlighted and selected text in code notes***/
 .CodeMirror-selected {
-   background-color: var(--code-select-gray);
+  background-color: var(--code-select-gray);
 }
 .CodeMirror-focused .CodeMirror-selected {
-    background-color: var(--code-select-gray);
+   background-color: var(--code-select-gray);
 }
 .cm-s-default .cm-matchhighlight{
-    color: var(--text-gray) !important;
-    background-color: var(--table-header-gray);
+   color: var(--text-gray) !important;
+   background-color: var(--table-header-gray);
 }
 
 /***general elements***/
@@ -1009,148 +1009,148 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--cherry-red);}
 /*****ADDONS*****/
 /***Highlight.js***/
 pre code.hljs {
-    display:block;
-    overflow-x:auto;
-    padding:1em;
- }
- code.hljs {
-    padding:3px 5px;
- }
- .hljs{
-    background: var(--main-background);
-    color: var(--soft-sea-green) !important;
- }
- .hljs-number {
-    color: var(--code-number) !important;
- }
- .hljs-selector-class {
-    color: var(--code-class) !important;
- }
- .hljs-selector-pseudo {
-    color: var(--code-pseudo) !important;
- }
- .hljs-keyword {
-    color: var(--code-keyword) !important;
- }
- .hljs-meta {
-    color: var(--code-meta) !important;
- }
- .hljs-title,.hljs-property {
-    color: var(--code-def) !important;
- }
- .hljs-variable,.hljs-params,.hljs-subst {
-    color: var(--code-var) !important;
- }
- .hljs-comment,.hljs-quote {
-    color: var(--code-comment) !important;
- }
- .hljs-name,.hljs-name>.hljs-tag,.hljs-selector-tag,.hljs-tag,.hljs-deletion,.hljs-selector-attr {
-    color: var(--code-tag) !important;
- }
- .hljs-attribute {
-    color: var(--code-attribute) !important;
- }
- .hljs-addition,.hljs-literal,.hljs-section,.hljs-string.hljs-string>.hljs-tag,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-regexp {
-    color: var(--code-string) !important;
- }
- .hljs-built_in {
-    color: var(--code-builtin) !important;
- }
- .hljs-doctag,.hljs-attr,.hljs-attr>.hljs-tag,.hljs-bullet,.hljs-link,.hljs-symbol {
-    color: var(--soft-sea-green) !important;
- }
- .hljs-emphasis {
-    font-style:italic;
- }
- .hljs-strong {
-    font-weight:700;
- }
+  display:block;
+  overflow-x:auto;
+  padding:1em;
+}
+code.hljs {
+  padding:3px 5px;
+}
+.hljs{
+  background: var(--main-background);
+  color: var(--soft-sea-green) !important;
+}
+.hljs-number {
+  color: var(--code-number) !important;
+}
+.hljs-selector-class {
+  color: var(--code-class) !important;
+}
+.hljs-selector-pseudo {
+  color: var(--code-pseudo) !important;
+}
+.hljs-keyword {
+  color: var(--code-keyword) !important;
+}
+.hljs-meta {
+  color: var(--code-meta) !important;
+}
+.hljs-title,.hljs-property {
+  color: var(--code-def) !important;
+}
+.hljs-variable,.hljs-params,.hljs-subst {
+  color: var(--code-var) !important;
+}
+.hljs-comment,.hljs-quote {
+  color: var(--code-comment) !important;
+}
+.hljs-name,.hljs-name>.hljs-tag,.hljs-selector-tag,.hljs-tag,.hljs-deletion,.hljs-selector-attr {
+  color: var(--code-tag) !important;
+}
+.hljs-attribute {
+  color: var(--code-attribute) !important;
+}
+.hljs-addition,.hljs-literal,.hljs-section,.hljs-string.hljs-string>.hljs-tag,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-regexp {
+  color: var(--code-string) !important;
+}
+.hljs-built_in {
+  color: var(--code-builtin) !important;
+}
+.hljs-doctag,.hljs-attr,.hljs-attr>.hljs-tag,.hljs-bullet,.hljs-link,.hljs-symbol {
+  color: var(--soft-sea-green) !important;
+}
+.hljs-emphasis {
+  font-style:italic;
+}
+.hljs-strong {
+  font-weight:700;
+}
 
 /***Zen Mode***/
 /*Use the button or alt+z to toggle it on and off*/
 /* hide launcher buttons*/
 .zen-mode button.bx-chevrons-left,.zen-mode #launcher-pane > .component > :not(button.component.button-widget.bx-spa) {
-    display: none !important;
+   display: none !important;
 }
 /*hide note tree*/
 .zen-mode #left-pane {
-    display: none !important;
+   display: none !important;
 }
 /*hide ribbon buttons*/
 .zen-mode .ribbon-container {
-    display: none !important;
+   display: none !important;
 }
 /*hide note title*/
 .zen-mode .title-row {
-    display: none !important;
+   display: none !important;
 }
 /*hide note tabs*/
 .zen-mode .tab-row-widget .tab-row-widget-container {
-    display: none !important;
+   display: none !important;
 }
 /*hide none-essential title-bar buttons*/
 .zen-mode .title-bar-buttons > :not(.top-btn,.minimize-btn,.maximize-btn,.close-btn) {
-    display: none;
+   display: none;
 }
 /*hide preview of child notes*/
 .zen-mode .note-list-widget {
-    display: none !important;
+   display: none !important;
 }
 /*hide backlink, code buttons, etc.*/
 .zen-mode .floating-buttons-children {
-    display: none !important;
+   display: none !important;
 }
 /*hide nonessential center pane widgets*/
 .zen-mode #center-pane > :not(.split-note-container-widget) {
-    display: none !important;
+   display: none !important;
 }
 /*hide right pane*/
-/*.zen-mode #right-pane {
-    display: none !important;
-}*/
+.zen-mode #right-pane {
+   display: none !important;
+}
 
 /***Theme Switcher***/
 .theme-selection.component .switch {
-    top: 5.75px !important;
+   top: 5.75px !important;
 }
 .theme-selection.component {
-    --background-hover-dark: var(--tan) !important;
-    --icon-dark: var(--sand) !important;
+   --background-hover-dark: var(--tan) !important;
+   --icon-dark: var(--sand) !important;
 }
 .theme-selection.component:hover {
-    --icon-dark: var(--soft-gray) !important;
+   --icon-dark: var(--soft-gray) !important;
 }
 
 /***Trilium Chat***/
 .chat-wrapper {
-    --trilium-green: var(--soft-sea-green);
+   --trilium-green: var(--soft-sea-green);
 }
 .chat-wrapper .header_face:hover {
-    color: var(--sand) !important;
+   color: var(--sand) !important;
 }
 
 /***Breadcrumbs***/
 #breadcrumbs-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border-top: 1px solid var(--main-border-color);
-    border-bottom: 1px solid var(--main-border-color);
-    contain: none;
-    overflow: auto;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+   border-top: 1px solid var(--main-border-color);
+   border-bottom: 1px solid var(--main-border-color);
+   contain: none;
+   overflow: auto;
 }
 #breadcrumbs span a {
-    white-space: pre;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inherit;
+   white-space: pre;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: inherit;
 }
 #breadcrumbs a {
-    display: inline-flex;
-    line-height: 1;
-    padding: 5px 10px;
-    background-color: rgba(252, 251, 179, 0.05) !important;
-    border-radius: 12px;
-    transition: transform 200ms ease, background-color 200ms ease, filter 200ms ease;
+   display: inline-flex;
+   line-height: 1;
+   padding: 5px 10px;
+   background-color: rgba(252, 251, 179, 0.05) !important;
+   border-radius: 12px;
+   transition: transform 200ms ease, background-color 200ms ease, filter 200ms ease;
 }

@@ -633,10 +633,10 @@ input.form-control.note-autocomplete.note-autocomplete-input.aa-input {
 
 /*****BUTTONS*****/
 .help-button {
-    color: hsl(15, 100%, 56%);
+    color: var(--sand);
 }
 .help-button:hover {
-    color: var(--sand);
+    color: var(--tan);
 }
 
 /*edit button*/

@@ -8,8 +8,8 @@ Dark theme for [Trilium Notes](https://github.com/zadam/trilium) and [TriliumNex
 * Dark theme
 * High contrast
 * Scrolling tables with sticky headers on both axes
-* Vertical floating buttons that have much less overlap with content of notes
-* Different styles to distinguish between different types of links
+* Vertical floating buttons for less content overlap
+* Different styles for different types of links
 * Custom fonts
 * Earthy colors
 
@@ -148,4 +148,4 @@ https://github.com/user-attachments/assets/cf5c499e-9287-402a-b0f7-dfd35bda75f1
 * WordCount (Featured in the [Demo Document](https://github.com/zadam/trilium/wiki/Document#demo-document))
 * [Zen Mode](https://github.com/Nriver/awesome-trilium/issues/44)
 
-Find more addons made by the Trilium community at [Nriver's Awesome Trilium](https://github.com/Nriver/awesome-trilium?tab=readme-ov-file#%EF%B8%8F-widgets), and check out my other theme [Stellar Dark](https://github.com/Lolabird/stellar-dark-theme-trilium) while you're at it!!
+Find more addons made by the Trilium community at [Nriver's Awesome Trilium](https://github.com/Nriver/awesome-trilium?tab=readme-ov-file#%EF%B8%8F-widgets), and check out my other themes [Ocean](https://github.com/Lolabird/ocean-dark-trilium-theme) and [Stellar Dark](https://github.com/Lolabird/stellar-dark-theme-trilium) while you're at it!!

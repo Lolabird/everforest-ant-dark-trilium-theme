@@ -492,7 +492,7 @@ body em, body i {
 body a *, a.ck-widget span {
    color: var(--link-color);
 }
-.ck-content a:hover, a.no-tooltip-preview {
+.ck-content a:hover, a.no-tooltip-preview:hover {
    text-decoration-style: double !important;
 }
 .ck-content a[href^="#root"]:not(.ck-widget) {

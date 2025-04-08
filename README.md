@@ -1,7 +1,7 @@
 # EverForest Ant Dark (EFAD) Trilium Theme
-This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Everforest and Ant Dark Linux desktop themes.
+Dark theme for [Trilium Notes](https://github.com/zadam/trilium) and [TriliumNext](https://github.com/TriliumNext/Notes) inspired by [Everforest](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme) and [Ant Dark](https://github.com/EliverLara/Ant/tree/master/kde/Dark).
 
-![Text Showcase](/screenshots/EFAD_Main.png)
+![Text Showcase](/screenshots/EFAD_main.png)
 
 ## Features
 ### Native Styles
@@ -9,19 +9,27 @@ This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Eve
 * High contrast
 * Scrolling tables with sticky headers on both axes
 * Vertical floating buttons that have much less overlap with content of notes
+* Different styles to distinguish between different types of links
 * Custom fonts
 * Earthy colors
 
 ### Enhanced Addon Styles
-*See 'Usage Instructions' for information on how to enable these.*
-* Zen Mode
-* Matching syntax highlight in text notes
+_See 'Usage Instructions' for information on how to enable these.*_
+
+* Zen mode (with right panel enabled)*
+* Matching code note and code block syntax highlight*
 * Position shown in TOC
 * And much more!
 
+_*If you are using TriliumNext, zen mode and code block syntax highlight are already natively available in the application. No extra steps are required for these addons unless you want to disable the right panel in zen mode. Please see the usage instructions below if this is the case._
+
 ## Usage Instructions
-* Download the latest version of Trilium
+* Download and install the latest version of Trilium or TriliumNext
 * Download the latest release of EverForest Ant Dark
+
+    * OG_EFAD if you use the original Trilium Notes
+    * Next_EFAD if you use TriliumNext
+
 * In your trilium instance right click a note you want to import the theme into
 * Select "Import into note" in the context menu
 * Uncheck "Safe import" and upload the zip file you just downloaded
@@ -34,6 +42,7 @@ This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Eve
 * Create a 'JS frontend' code note
 * Add the `#widget` attribute to 'Owned Attributes' (the button with three lines and a checkmark)
 * Add the following code (created by [Nriver](https://github.com/Nriver/awesome-trilium/issues/44))) to the note
+
     ```js
     api.addButtonToToolbar({
         title: 'Zen mode',
@@ -44,10 +53,10 @@ This is a [Trilium Notes](https://github.com/zadam/trilium) theme to go with Eve
         shortcut: 'alt+z'
     });
     ```
-* Reload (`ctrl+r` or `F5`) Trilium to enable the script
+* Reload (<kbd>ctrl+R</kbd> or <kbd>F5</kbd>) Trilium to enable the script
 
 ##### Usage
-Press `alt+z` or the zen (spa) button in the launcher (left most panel) to enable/disable zen mode.
+Press <kbd>alt+Z</kbd> or the zen (spa) button in the launcher (left most panel) to enable/disable zen mode.
 
 There are two types of zen mode available:
 1. Right panel enabled
@@ -65,10 +74,12 @@ Right panel is enabled by default. If you would like to disable it, you can eith
 https://github.com/user-attachments/assets/cec5564d-07f4-405e-85f7-b998d85a277c
 
 ##### Added Features
-* Window control buttons are still accessible in zen mode
-* Zen button is still accessible in zen mode for easy disabling in case you don't remember the shortcut
+* Window control buttons are still accessible in zen mode*
+* Zen button is still accessible in zen mode for easy disabling in case you don't remember the shortcut*
 * Bottom panel widgets are not visible in zen mode
 * Optional disabling of right panel in zen mode
+
+_*Natively available in TriliumNext_
 
 #### Show Position in TOC and Syntax Highlight
 Please go to each addon's respective page for instructions on how to enable these addons.
@@ -115,7 +126,7 @@ https://github.com/user-attachments/assets/b04401cf-7579-4abc-bfc2-a91d69cfd971
 * [Breadcrumbs](https://github.com/rauenzi/Trilium-Breadcrumbs)
 * [Scratchpad](https://github.com/zadam/trilium/discussions/1613#discussioncomment-638984)
 * [Show Position in TOC](https://github.com/SiriusXT/trilium-show-position-in-toc)
-* [Syntax Highlight](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)
+* [Syntax Highlight](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget) 
 * [Theme Switch](https://github.com/madodig/trilium-widget-theme-switch)
 * [Trilium Chat](https://github.com/soulsands/trilium-chat)
 * WordCount (Featured in the [Demo Document](https://github.com/zadam/trilium/wiki/Document#demo-document))

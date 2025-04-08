@@ -24,6 +24,7 @@ _See 'Usage Instructions' for information on how to enable these.*_
 _*If you are using TriliumNext, zen mode and code block syntax highlight are already natively available in the application. No extra steps are required for these addons unless you want to disable the right panel in zen mode. Please see the usage instructions below if this is the case._
 
 ## Usage Instructions
+### Installation
 * Download and install the latest version of Trilium or TriliumNext
 * Download the latest release of EverForest Ant Dark
 

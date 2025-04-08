@@ -89,9 +89,7 @@ body.zen div#right-pane:not(.hidden-int) {
 
 ```
 
-
 https://github.com/user-attachments/assets/f995b2f9-b983-4fba-b460-5ce23c9637c9
-
 
 ##### Added Features
 * Window control buttons are still accessible in zen mode*
@@ -109,13 +107,13 @@ Please go to each addon's respective page for instructions on how to enable thes
 ## Screenshots
 The following screenshots are from TriliumNext. Most of the features shown are also available in either OG Trilium or can be included via addons. However, some features, like cards (excluding quotes) and <kbd>kbd</kbd>, are only available in TriliumNext.
 
-
 https://github.com/user-attachments/assets/a2395d8b-c9ea-4675-b5c3-e590d5af68ee
 
+![Relation Map](/screenshots/EFAD_Relation_Map.png)
+
+![Code Note](/screenshots/EFAD_Code.png)
 
 https://github.com/user-attachments/assets/cf5c499e-9287-402a-b0f7-dfd35bda75f1
-
-
 
 ## Credits and Resources
 ### Fonts

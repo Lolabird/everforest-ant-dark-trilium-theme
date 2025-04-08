@@ -62,7 +62,7 @@ There are two types of zen mode available:
 1. Right panel enabled
 2. Right panel disabled
 
-Right panel is enabled by default. If you would like to disable it, you can either add the following code in a new CSS note or uncomment it in the Stellar Dark theme as seen in the video below.
+The right panel is enabled by default. If you would like to disable this in the original Trilium, you can either add the following code in a new CSS note or uncomment in the theme.
 
 ```css
 /*hide right pane*/
@@ -71,7 +71,19 @@ Right panel is enabled by default. If you would like to disable it, you can eith
 }
 ```
 
-https://github.com/user-attachments/assets/cec5564d-07f4-405e-85f7-b998d85a277c
+
+In TriliumNext, you will need to find and comment out this code:
+
+```css
+/*show right pane*/
+body.zen div.gutter {
+    display: block !important;
+}
+body.zen div#right-pane:not(.hidden-int) {
+	display: flex !important;
+}
+
+```
 
 ##### Added Features
 * Window control buttons are still accessible in zen mode*
@@ -86,18 +98,8 @@ Please go to each addon's respective page for instructions on how to enable thes
 * [Show Position in TOC](https://github.com/SiriusXT/trilium-show-position-in-toc)
 * [Syntax Highlight](https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget)
 
-## Screenshots and Videos
-![Selection Showcase](/screenshots/EFAD_Hover.png)
-
-https://github.com/user-attachments/assets/af52206b-1c09-4567-9bbd-553b96f33c66
-
-![Map Showcase](/screenshots/EFAD_Map.png)
-
-![Code Showcase](/screenshots/EFAD_Code.png)
-
-https://github.com/user-attachments/assets/b04401cf-7579-4abc-bfc2-a91d69cfd971
-
-![Text Note Syntax Highlight Showcase](/screenshots/EFAD_Highlight.png)
+## Screenshots
+The following screenshots are from TriliumNext. Most of the features shown are also available in either OG Trilium or can be included via addons. However, some features, like cards (excluding quotes) and <kbd>kbd</kbd>, are only available in TriliumNext.
 
 ## Credits and Resources
 ### Fonts

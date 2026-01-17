@@ -297,11 +297,8 @@ padding-left: 1.5rem;
 }
 
 /***Only applies if 'Show Position in TOC' widget is in use***/
-.toc-widget span.toc li[style] {
- color: var(--tan) !important;
-}
-.toc-widget span.toc li:not([style*="color:"]), .toc-widget span.toc li:not([style*="color:"]) * {
- color: inherit !important;
+.toc li.in-view {
+   color: var(--tan) !important;
 }
 
 .toc-widget .toc li, .highlights-list > ol > li {

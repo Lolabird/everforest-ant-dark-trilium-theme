@@ -292,22 +292,9 @@ div.tab-row-widget .note-tab .note-tab-wrapper {
 
 
 /*****TOC*****/
-span.toc ol, span.highlights-list ol {
-padding-left: 1.5rem;
-}
-
 /***Only applies if 'Show Position in TOC' widget is in use***/
 .toc li.in-view {
    color: var(--tan) !important;
-}
-
-.toc-widget .toc li, .highlights-list > ol > li {
- text-align: left;
-}
-.toc kbd {
-  background: transparent;
-  text-decoration: underline;
-  color: inherit;
 }
 
 

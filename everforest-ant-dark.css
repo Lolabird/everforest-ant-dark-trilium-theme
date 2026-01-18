@@ -230,7 +230,7 @@ html {
 *:focus-visible {
     outline: var(--sand) auto 1px;
 }
-.component.note-detail {
+.component.note-detail, .component.note-list-widget {
     margin: auto;
 }
 
